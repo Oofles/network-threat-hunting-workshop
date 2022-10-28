@@ -43,20 +43,36 @@ wsl --install
 
 2. Open the Ubuntu app and update 
 ```bash
-sudo apt update
-sudo apt upgrade
+sudo apt update && sudo apt upgrade
+sudo apt install git
 ```
 
 3. Install Docker Desktop for Windows
 - Navigate to: https://docs.docker.com/desktop/install/windows-install/
-- Download the installer and follow 
+- Download the installer and follow the instructions
 
 
 ### Option 3: Windows with Virtual Machine
 
+Friends don't let friends use VirtualBox.
 
+1. Install VMWare Workstation Player
+- https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1624&productId=1039&rPId=91446
+
+2. Download the latest version of Ubuntu 20.04 (Choose the VMware Image)
+- https://www.linuxvmimages.com/images/ubuntu-2004/
+
+3. Import the image and start
+
+4. Update and Install prereqs
+```bash
+sudo apt update && sudo apt upgrade
+sudo apt install git
+```
 
 ### Option 4: MacOS 
+
+Good luck... I don't have a Mac anymore to test on. You should be able to simply install Docker for Mac and use Mac's basic command-line features since it's still a *nix based OS. 
 
 ## 2. Setup environment
 
@@ -81,7 +97,6 @@ sudo docker network create th-elastic
 sudo docker run --name th-kibana --net th-elastic -p 5601:5601 -e "ELASTICSEARCH_HOSTS=http://th-elasticsearch:9200" oofles/th-kibana
 sudo docker run --name th-elasticsearch --net th-elastic -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" oofles/th-elasticsearch
 ```
-
 
 ## 3. Modules
 The instructions for the various modules are below:
