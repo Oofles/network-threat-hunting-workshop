@@ -44,5 +44,8 @@ Search:
 
 In Part 3, the goal is to analyze the filtered HTTP PCAP to investigate what information was sent or received from meowmix.ironcatfood.com.
 
-Wireshark Filters:
-- 
+All the analysis in this section can be done by analyzing the TCP Streams:
+- Right Click -> Follow -> TCP Stream
+
+Alternatively, you can view the individual streams with a Wireshark Filter:
+- `tcp.stream eq 0`
