@@ -94,8 +94,8 @@ docker pull oofles/th-elasticsearch
 3. Create and start the containers
 ```
 sudo docker network create th-elastic
-sudo docker run --name th-kibana --net th-elastic -p 5601:5601 -e "ELASTICSEARCH_HOSTS=http://th-elasticsearch:9200" oofles/th-kibana
-sudo docker run --name th-elasticsearch --net th-elastic -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" oofles/th-elasticsearch
+sudo docker run -d --name th-elasticsearch --net th-elastic -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" oofles/th-elasticsearch
+sudo docker run -d --name th-kibana --net th-elastic -p 5601:5601 -e "ELASTICSEARCH_HOSTS=http://th-elasticsearch:9200/" oofles/th-kibana
 ```
 
 ## 3. Modules
