@@ -1,0 +1,397 @@
+From bounces@sans.org  Thu Dec  2 18:08:59 2021
+Return-Path: <bounces@sans.org>
+X-Original-To: dappleton@globocat.com
+Delivered-To: dappleton@globocat.com
+Received: from mx0b-002c1802.pphosted.com (mx0b-002c1802.pphosted.com [205.220.173.71])
+	by mail.globocat.com (Postfix) with ESMTPS id 3083E7E5CB
+	for <dappleton@globocat.com>; Thu,  2 Dec 2021 18:08:59 +0000 (UTC)
+Received: from pps.filterd (m0236719.ppops.net [127.0.0.1])
+	by mx0b-002c1802.pphosted.com (8.16.1.2/8.16.1.2) with ESMTP id 1B2GdOPM008311
+	for <dappleton@globocat.com>; Thu, 2 Dec 2021 13:09:02 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sans.org; h=message-id : date :
+ subject : from : reply-to : to : mime-version : content-type :
+ content-transfer-encoding; s=pp1;
+ bh=G7a/4ivv3+AXv52slksGxQk6s4/TP0NhKldU/tTNxgY=;
+ b=Oy2zqtVF0jx0HB0kfHf/Vzz/g8KzAjbQJiAOUgEi8p0CQhFicanOfiA1mdpTr3qO4mix
+ dl8x25bwxq+T/dzcocPlUQN4ulVGjv1Rr7WzpQxquoZzg6mejWIgK2JAbNa5Icfy3PNv
+ cdAP9eO/cAe6PLQ2antpdU7feg2/hXhq88ZtBw18pXTyfZX3eoDYhprpZfxDKunRKGHf
+ HNg5gAkvdfW5rV3L5wzTEPxcPHZwU1wvr9Bm/Ms2c0AQgLJ1tDgd/7It+BhkHJygyRQN
+ W2C8AIlWLGtx29v5tX5iiePC9/iloYK7quENdlFClI0emptWzCBzmHP3ypYQ+jXnHElr 3A== 
+Received: from nam12-bn8-obe.outbound.protection.outlook.com (mail-bn8nam12lp2175.outbound.protection.outlook.com [104.47.55.175])
+	by mx0b-002c1802.pphosted.com (PPS) with ESMTPS id 3cq1g58400-1
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <dappleton@globocat.com>; Thu, 02 Dec 2021 13:09:01 -0500
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=QQZlDH0Y8LZkcJKzrqruaqoIXTv6zD1MW1Yvu0vv7iynd9rY/3GKOASL4t0IYvVzpn87GRBNr15+eE757q+n0v7aEKbzMo0ZaivLngVoNlPfX1udzhIX3eNBEB949OK/IFKRtAOnPQuSmMPbuwQAejTtK8by9PygDOD6oo843OlSveJFRg9Fm+lJdBZ64kfP7PtBcssweTVtFybXk+KgUElC5ylX4lUo+ijdQ+EiJ7iNml8vgMJVR5/wWwppEVjzAuFebP8d1qM195O5IKupRP/NRXW4xqu+JXJUrE7r/Bk2sXlEN8U9ayXwDE0hledkI0RIEpBZLLjQadvDAEaCPg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=G7a/4ivv3+AXv52slksGxQk6s4/TP0NhKldU/tTNxgY=;
+ b=QMl1GU5xg6A4a2xLdhHfILlITpgMqsv1ZDigZBS0gUL5flcj+7aCIXJATiz1wI9X2/be8Q5Y/41YMD3RspxIGBZkj9ZXsvpkYsflx0X4NWdtULXViYsRkrGNdbllw79it5uNWMVPBWovU/apJy6IK9DpRKhjJb7uaN0xvyAO6Y6FHmk7WEH3ktIyuhfB/XsC0Et/+91xUiXGZeQtHdVtlYiwBPogSmG1jD7PnW8fJ7YLt76Ow388bft8MdTGPVOD9yvORW5eN3XWUtDEbrQvGoAKIx+enfdB2pJl0mK8501ZjYfPYY1nRcfoeItmLD+6R0478tA2VkMWbLcbuTTJOw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass (sender ip is
+ 34.192.32.13) smtp.rcpttodomain=globocat.com smtp.mailfrom=sans.org;
+ dmarc=pass (p=reject sp=reject pct=100) action=none header.from=sans.org;
+ dkim=none (message not signed); arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sans.org; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=G7a/4ivv3+AXv52slksGxQk6s4/TP0NhKldU/tTNxgY=;
+ b=oJ0QEZxuJrXlJLw8XkBJzNxT+t84dmF1ELH7qR0Sr9T3OuC/CicUknsXaZ/Xtdlrmb39bKwke9gKqu/qGmbdz/PURzgDpHgaN79plXRVaDtOlE24xOK3Myv8XKWyDyKyaf80DXGVPJReyOpmgFn9MsVIsyiJmeoll3aqwQH56Xk=
+Received: from DM5PR12CA0064.namprd12.prod.outlook.com (2603:10b6:3:103::26)
+ by CO6PR18MB3825.namprd18.prod.outlook.com (2603:10b6:5:352::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4734.23; Thu, 2 Dec
+ 2021 18:08:59 +0000
+Received: from DM6NAM04FT049.eop-NAM04.prod.protection.outlook.com
+ (2603:10b6:3:103:cafe::43) by DM5PR12CA0064.outlook.office365.com
+ (2603:10b6:3:103::26) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4734.24 via Frontend
+ Transport; Thu, 2 Dec 2021 18:08:59 +0000
+X-MS-Exchange-Authentication-Results: spf=pass (sender IP is 34.192.32.13)
+ smtp.mailfrom=sans.org; dkim=none (message not signed)
+ header.d=none;dmarc=pass action=none header.from=sans.org;
+Received-SPF: Pass (protection.outlook.com: domain of sans.org designates
+ 34.192.32.13 as permitted sender) receiver=protection.outlook.com;
+ client-ip=34.192.32.13; helo=sc-smtp.live.arch.sans.services;
+Received: from sc-smtp.live.arch.sans.services (34.192.32.13) by
+ DM6NAM04FT049.mail.protection.outlook.com (10.13.158.162) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4755.13 via Frontend Transport; Thu, 2 Dec 2021 18:08:59 +0000
+Message-ID: <1638468538.61a90bba95b36@www.sans.org>
+Date: Thu, 02 Dec 2021 18:08:58 +0000
+Subject: SANS Newsletter Subscription
+From: SANS Account Support <account-support@sans.org>
+Reply-To: account-support@sans.org
+To: dappleton@globocat.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-MailID: === 56162115 ===
+X-Bounce: === SD24467705 === dappleton@globocat.com ===
+X-Mailing: central_mailer
+X-EOPAttributedMessage: 0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 09acbf04-99c7-4d64-dea8-08d9b5bed034
+X-MS-TrafficTypeDiagnostic: CO6PR18MB3825:
+X-Microsoft-Antispam-PRVS: 
+	<CO6PR18MB3825B2B219B05A317C234AE3C2699@CO6PR18MB3825.namprd18.prod.outlook.com>
+X-MS-Oob-TLC-OOBClassifiers: OLM:6108;
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: 
+	d5gzZlWPm0GJr7RhaDV2Ubp9P0CCyHGSdAljLN7WGxtTj+3H2ymZYZt+2BLx6PZNiKwZZKACgOfpry/1VOSO+4QiZFhIgU5nMS5Up8KpJ9pq2MaCp5yDW4cFpDVwjip1+PqVSDbAkbwJtxLS3+Yh0ErYQle0OejWcuRDA1dJN4NQRFAsVGcngSDvRttYvXxnhjxdmsoCpZNKxdo+Ldk8dAzDRkWthiiFs24wDLTclDSbT6+un515iViJFWwLIOIG8yqRVTsssDt082ef5xxYyEw7BokX4cvxoRakme29n1FynK6bl98Xoo8YO/I3EUrfdyWyWiT1CCbmOIAcjgF5K4zPAUxdgQaePuZHvhYX3JnF6GxSDFk9bMyjkmW/PuFrVfKxNeHfJZFSLqTXSgWSmwnwI54um5H4q8KzB3AUg0KtLY+ZcKUHFif8oNfly/Q8HdSEIB/gQ/opQbnMHpBCpz6OfyjTVDa2FJLScyYQzYCvFDKhJL3x5TGbOn45MCdF7uTWMqu9iYO2aDljq+Ch2vcMQGAHcqNilseYIpYGM67hai9l10HEXOSMfLxjCOzT2kL4j4JC4I82XnJ8kupAPoKls7WQI8QOiX2zPh+PD+ArM2L0Q5gXOzMkh7DAWrGJ1Z/wZyOuk0iuOOkujqUX98020MoF3hI+Pi+61tRVnTyDhR+gt+11+qwhlR78L5/vUxKx+FMZo/vvgHNlKj/FW/XXNP6HpHPK0Qr7F0VemxqVAUP+3Q9O+CoQpMU+4pwqUfuZnUtjM7ijpkunSkt8ABG76wUbsx9Rh6LnwcMIE9Y=
+X-Forefront-Antispam-Report: 
+	CIP:34.192.32.13;CTRY:US;LANG:en;SCL:1;SRV:;IPV:CAL;SFV:NSPM;H:sc-smtp.live.arch.sans.services;PTR:gw2-prod-aws.sans.org;CAT:NONE;SFS:(46966006)(36840700001)(4744005)(2906002)(82310400004)(8936002)(6512007)(83380400001)(70206006)(3480700007)(336012)(70586007)(3450700001)(186003)(6916009)(26005)(786003)(316002)(8676002)(508600001)(6486002)(956004)(6506007)(5660300002)(36860700001)(356005)(36736006)(7116003)(47076005)(19810500001)(966005);DIR:OUT;SFP:1101;
+X-OriginatorOrg: sans.org
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 02 Dec 2021 18:08:59.0081
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 09acbf04-99c7-4d64-dea8-08d9b5bed034
+X-MS-Exchange-CrossTenant-Id: 06746f27-23b4-4e85-a371-4c261f45dc12
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=06746f27-23b4-4e85-a371-4c261f45dc12;Ip=[34.192.32.13];Helo=[sc-smtp.live.arch.sans.services]
+X-MS-Exchange-CrossTenant-AuthSource: 
+	DM6NAM04FT049.eop-NAM04.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO6PR18MB3825
+X-Proofpoint-GUID: ionLdq883eYWQsW_s68__7IAuKY1yoTH
+X-Proofpoint-ORIG-GUID: ionLdq883eYWQsW_s68__7IAuKY1yoTH
+X-Proofpoint-Virus-Version: vendor=baseguard
+ engine=ICAP:2.0.205,Aquarius:18.0.790,Hydra:6.0.425,FMLib:17.11.62.513
+ definitions=2021-12-02_12,2021-12-02_01,2021-12-02_01
+X-Proofpoint-Spam-Details: rule=outbound_notspam policy=outbound score=0 mlxlogscore=383
+ priorityscore=1501 phishscore=0 impostorscore=0 clxscore=1011 mlxscore=0
+ spamscore=0 suspectscore=0 bulkscore=0 malwarescore=0 adultscore=0
+ lowpriorityscore=0 classifier=spam adjust=-99 reason=mlx scancount=1
+ engine=8.12.0-2110150000 definitions=main-2112020116
+
+Hello,
+=20
+Thank you for signing up for SANS Newsletters. Please =
+visit this URL to verify
+and activate your subscription:
+=20
+h=
+ttps://www.sans.org/account/validateSubscription/21a6cbf899472137f1c5db4=
+1a2332a70e435426a585e298971a413584dc83806b0807e91ed9778a2/e764135a031cc9=
+d85aacb18fb8f69726
+=20
+If you experience any problems, please con=
+tact account-support@sans.org
+=20
+Thank You,
+The SANS Insti=
+tute
+
+From bounce-mcsys.us1_1832689.5b1b1f68f8.NA-dappleton=globocat.com@mail8.mcsignup.com  Thu Dec  2 18:26:16 2021
+Return-Path: <bounce-mcsys.us1_1832689.5b1b1f68f8.NA-dappleton=globocat.com@mail8.mcsignup.com>
+X-Original-To: dappleton@globocat.com
+Delivered-To: dappleton@globocat.com
+Received: from mail8.mcsignup.com (mail8.mcsignup.com [198.2.140.12])
+	by mail.globocat.com (Postfix) with ESMTPS id 721827E5CB
+	for <dappleton@globocat.com>; Thu,  2 Dec 2021 18:26:16 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=hackernewsletter.com; s=k1; t=1638469579;
+	i=kale@hackernewsletter.com;
+	bh=HMy3Yqk56jXGrZEbof8DoMkm1+x2v8jxN1Ndma6gjhU=;
+	h=From:Reply-To:To:Date:Message-ID:Subject:Form-Sub:MIME-Version:
+	 Content-Type;
+	b=rwVX1aeroKW/O9ukgFH51ub0iNqvjzRxBxvTtiUA1NxDR4rMH5LS+TGikekP4B4wY
+	 92c1EwvqcuiigLBV+gxmx8M9S8aeiJF608lYHPX2BK8zeK3Wtofvn8qPmMJ0gZSiMT
+	 WORUB1h6y8iF3DvZjF+qNekSNSRka/dH+AYyKxlQ=
+Received: from 127.0.0.1 (localhost [127.0.0.1])
+	by mail8.mcsignup.com (Mailchimp) with ESMTP id 4J4ktM6zBhz3sNBGq
+	for <dappleton@globocat.com>; Thu,  2 Dec 2021 18:26:19 +0000 (GMT)
+From: =?utf-8?Q?Hacker=20Newsletter?= <kale@hackernewsletter.com>
+Reply-To: =?utf-8?Q?Hacker=20Newsletter?= <kale@hackernewsletter.com>
+To:  <dappleton@globocat.com>
+Date: Thu, 02 Dec 2021 18:26:19 +0000
+Message-ID: <faa8eb4ef3a111cef92c4f3d432e2f3b6ca.20211202182619@mail8.mcsignup.com>
+X-Mailer: MailChimp Mailer - **CID5b1b1f68f832e2f3b6ca**
+X-Campaign: mailchimpfaa8eb4ef3a111cef92c4f3d4.5b1b1f68f8
+X-campaignid: mailchimpfaa8eb4ef3a111cef92c4f3d4.5b1b1f68f8
+X-Report-Abuse: Please report abuse for this campaign here: https://mailchimp.com/contact/abuse/?u=faa8eb4ef3a111cef92c4f3d4&id=5b1b1f68f8&e=32e2f3b6ca
+X-MC-User: faa8eb4ef3a111cef92c4f3d4
+X-Feedback-ID: 1832689:1832689.5b1b1f68f8:us1:mc
+X-Auto-Response-Suppress: OOF, AutoReply
+X-Accounttype: pd
+Subject: Hacker Newsletter: Please Confirm Subscription
+Form-Sub: v=1;ip4=73.105.30.80
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_801097293"
+
+
+--_----------=_MCPart_801097293
+Content-Type: text/plain; charset="us-ascii"
+
+** Please Confirm Subscription
+------------------------------------------------------------
+Yes, subscribe me to this list. (https://us1.mailchimp.com/mctx/clicks?url=https%3A%2F%2Fhackernewsletter.us1.list-manage.com%2Fsubscribe%2Fconfirm%3Fu%3Dfaa8eb4ef3a111cef92c4f3d4%26id%3De505c88a2e%26e%3D1d7caae428&h=ebed59d69333f1cf9979838ea1ffc133823ca4f79eae19ebe7b076f53967511e&v=1&xid=5b1b1f68f8&uid=1832689&pool=contact_facing&subject=Hacker+Newsletter%3A+Please+Confirm+Subscription)
+
+If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above.
+
+For questions about this list, please contact:
+kale@hackernewsletter.com (mailto:kale@hackernewsletter.com)
+--_----------=_MCPart_801097293
+Content-Type: text/html; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>=0A<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=
+=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:=
+office:office" dir=3D"ltr">=0A    <head>=0A        <!--[if gte mso 15]>=
+=0A        <xml>=0A            <o:OfficeDocumentSettings>=0A           =
+     <o:AllowPNG/>=0A                <o:PixelsPerInch>96</o:PixelsPerInc=
+h>=0A            </o:OfficeDocumentSettings>=0A        </xml>=0A       =
+ <![endif]-->=0A        <title>Hacker Newsletter</title>=0A        <meta=
+ http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=0A=
+        <meta http-equiv=3D"x-ua-compatible" content=3D"IE=3Dedge">=0A =
+       <meta name=3D"viewport" content=3D"width=3Ddevice-width=2C initia=
+l-scale=3D1">=0A        <meta name=3D"description" content=3D"Hacker New=
+sletter Email Forms">=0A        <meta name=3D"keywords" content=3D"Hacke=
+r Newsletter">=0A        =0A    <style type=3D"text/css">=0A=09=09body{=
+=0A=09=09=09font:14px/20px 'Helvetica'=2C Arial=2C sans-serif;=0A=09=09=
+=09margin:0;=0A=09=09=09padding:75px 0 0 0;=0A=09=09=09text-align:center=
+;=0A=09=09=09-webkit-text-size-adjust:none;=0A=09=09}=0A=09=09p{=0A=09=
+=09=09padding:0 0 10px 0;=0A=09=09}=0A=09=09h1 img{=0A=09=09=09max-width=
+:100%;=0A=09=09=09height:auto !important;=0A=09=09=09vertical-align:bott=
+om;=0A=09=09}=0A=09=09h2{=0A=09=09=09font-size:22px;=0A=09=09=09line-hei=
+ght:28px;=0A=09=09=09margin:0 0 12px 0;=0A=09=09}=0A=09=09h3{=0A=09=09=
+=09margin:0 0 12px 0;=0A=09=09}=0A=09=09.headerBar{=0A=09=09=09backgroun=
+d:none;=0A=09=09=09padding:0;=0A=09=09=09border:none;=0A=09=09}=0A=09=09=
+.wrapper{=0A=09=09=09width:600px;=0A=09=09=09margin:0 auto 10px auto;=0A=
+=09=09=09text-align:left;=0A=09=09}=0A=09=09input.formEmailButton{=0A=09=
+=09=09border:none !important;=0A=09=09}=0A=09=09.formEmailButton{=0A=09=
+=09=09display:inline-block;=0A=09=09=09font-weight:500;=0A=09=09=09font-=
+size:16px;=0A=09=09=09line-height:42px;=0A=09=09=09font-family:'Helvetic=
+a'=2C Arial=2C sans-serif;=0A=09=09=09width:auto;=0A=09=09=09white-space=
+:nowrap;=0A=09=09=09height:42px;=0A=09=09=09margin:12px 5px 12px 0;=0A=
+=09=09=09padding:0 22px;=0A=09=09=09text-decoration:none;=0A=09=09=09tex=
+t-align:center;=0A=09=09=09cursor:pointer;=0A=09=09=09border:0;=0A=09=09=
+=09border-radius:3px;=0A=09=09=09vertical-align:top;=0A=09=09}=0A=09=09.=
+formEmailButton span{=0A=09=09=09display:inline;=0A=09=09=09font-family:=
+'Helvetica'=2C Arial=2C sans-serif;=0A=09=09=09text-decoration:none;=0A=
+=09=09=09font-weight:500;=0A=09=09=09font-style:normal;=0A=09=09=09font-=
+size:16px;=0A=09=09=09line-height:42px;=0A=09=09=09cursor:pointer;=0A=09=
+=09=09border:none;=0A=09=09}=0A=09=09.rounded6{=0A=09=09=09border-radius=
+:6px;=0A=09=09}=0A=09=09.poweredWrapper{=0A=09=09=09padding:20px 0;=0A=
+=09=09=09width:560px;=0A=09=09=09margin:0 auto;=0A=09=09}=0A=09=09.power=
+edBy{=0A=09=09=09display:block;=0A=09=09}=0A=09=09span.or{=0A=09=09=09di=
+splay:inline-block;=0A=09=09=09height:32px;=0A=09=09=09line-height:32px;=
+=0A=09=09=09padding:0 5px;=0A=09=09=09margin:5px 5px 0 0;=0A=09=09}=0A=
+=09=09.clear{=0A=09=09=09clear:both;=0A=09=09}=0A=09=09.profile-list{=0A=
+=09=09=09display:block;=0A=09=09=09margin:15px 20px;=0A=09=09=09padding:=
+0;=0A=09=09=09list-style:none;=0A=09=09=09border-top:1px solid #eee;=0A=
+=09=09}=0A=09=09.profile-list li{=0A=09=09=09display:block;=0A=09=09=09m=
+argin:0;=0A=09=09=09padding:5px 0;=0A=09=09=09border-bottom:1px solid #e=
+ee;=0A=09=09}=0A=09=09html[dir=3Drtl] .wrapper=2Chtml[dir=3Drtl] .contai=
+ner=2Chtml[dir=3Drtl] label{=0A=09=09=09text-align:right !important;=0A=
+=09=09}=0A=09=09html[dir=3Drtl] ul.interestgroup_field label{=0A=09=09=
+=09padding:0;=0A=09=09}=0A=09=09html[dir=3Drtl] ul.interestgroup_field i=
+nput{=0A=09=09=09margin-left:5px;=0A=09=09}=0A=09=09html[dir=3Drtl] .hid=
+den-from-view{=0A=09=09=09right:-5000px;=0A=09=09=09left:auto;=0A=09=09}=
+=0A=09=09body=2C#bodyTable{=0A=09=09=09background-color:#ffffff;=0A=09=
+=09}=0A=09=09h1{=0A=09=09=09font-size:28px;=0A=09=09=09line-height:110%;=
+=0A=09=09=09margin-bottom:30px;=0A=09=09=09margin-top:0;=0A=09=09=09padd=
+ing:0;=0A=09=09}=0A=09=09#templateContainer{=0A=09=09=09background-color=
+:none;=0A=09=09}=0A=09=09#templateBody{=0A=09=09=09background-color:#fff=
+fff;=0A=09=09}=0A=09=09.bodyContent{=0A=09=09=09line-height:150%;=0A=09=
+=09=09font-family:Arial;=0A=09=09=09font-size:14px;=0A=09=09=09color:#33=
+3333;=0A=09=09=09padding:20px;=0A=09=09}=0A=09=09a:link=2Ca:active=2Ca:v=
+isited=2Ca{=0A=09=09=09color:#336699;=0A=09=09}=0A=09=09.formEmailButton=
+:link=2C.formEmailButton:active=2C.formEmailButton:visited=2C.formEmailB=
+utton=2C.formEmailButton span{=0A=09=09=09background-color:#5d5d5d !impo=
+rtant;=0A=09=09=09color:#ffffff !important;=0A=09=09}=0A=09=09.formEmail=
+Button:hover{=0A=09=09=09background-color:#444444 !important;=0A=09=09=
+=09color:#ffffff !important;=0A=09=09}=0A=09=09label{=0A=09=09=09line-he=
+ight:150%;=0A=09=09=09font-family:Arial;=0A=09=09=09font-size:16px;=0A=
+=09=09=09color:#5d5d5d;=0A=09=09}=0A=09=09.field-group input=2Cselect=2C=
+textarea=2C.dijitInputField{=0A=09=09=09font-family:Arial;=0A=09=09=09co=
+lor:#5d5d5d !important;=0A=09=09}=0A=09=09.asterisk{=0A=09=09=09color:#c=
+c6600;=0A=09=09=09font-size:20px;=0A=09=09}=0A=09=09label .asterisk{=0A=
+=09=09=09visibility:hidden;=0A=09=09}=0A=09=09.indicates-required{=0A=09=
+=09=09display:none;=0A=09=09}=0A=09=09.field-help{=0A=09=09=09color:#777=
+;=0A=09=09}=0A=09=09.error=2C.errorText{=0A=09=09=09color:#e85c41;=0A=09=
+=09=09font-weight:bold;=0A=09=09}=0A=09@media (max-width: 620px){=0A=09=
+=09body{=0A=09=09=09width:100%;=0A=09=09=09-webkit-font-smoothing:antial=
+iased;=0A=09=09=09padding:10px 0 0 0 !important;=0A=09=09=09min-width:30=
+0px !important;=0A=09=09}=0A=0A}=09@media (max-width: 620px){=0A=09=09.w=
+rapper=2C.poweredWrapper{=0A=09=09=09width:auto !important;=0A=09=09=09m=
+ax-width:600px !important;=0A=09=09=09padding:0 10px;=0A=09=09}=0A=0A}=
+=09@media (max-width: 620px){=0A=09=09#templateContainer=2C#templateBody=
+=2C#templateContainer table{=0A=09=09=09width:100% !important;=0A=09=09=
+=09-moz-box-sizing:border-box;=0A=09=09=09-webkit-box-sizing:border-box;=
+=0A=09=09=09box-sizing:border-box;=0A=09=09}=0A=0A}=09@media (max-width:=
+ 620px){=0A=09=09.addressfield span{=0A=09=09=09width:auto;=0A=09=09=09f=
+loat:none;=0A=09=09=09padding-right:0;=0A=09=09}=0A=0A}=09@media (max-wi=
+dth: 620px){=0A=09=09.captcha{=0A=09=09=09width:auto;=0A=09=09=09float:n=
+one;=0A=09=09}=0A=0A}=09=09.gdpr-mergeRow{=0A=09=09=09margin:10px 0;=0A=
+=09=09=09color:#4a4a4a;=0A=09=09=09font-family:Helvetica;=0A=09=09}=0A=
+=09=09.gdpr-content{=0A=09=09=09margin:0 -20px 0 -20px;=0A=09=09=09paddi=
+ng:20px;=0A=09=09=09background:rgba(255=2C 255=2C 255=2C 0.8);=0A=09=09}=
+=0A=09=09#gdpr-label{=0A=09=09=09margin-top:0;=0A=09=09}=0A=09=09#gdpr-d=
+escription{=0A=09=09=09margin-top:6px;=0A=09=09=09margin-bottom:0;=0A=09=
+=09=09padding-bottom:11px;=0A=09=09}=0A=09=09.gdpr-content p{=0A=09=09=
+=09color:#4a4a4a;=0A=09=09=09font-size:13px;=0A=09=09=09line-height:1.5;=
+=0A=09=09}=0A=09=09.gdpr-content .checkbox-group label{=0A=09=09=09font-=
+weight:normal;=0A=09=09=09font-size:13px;=0A=09=09}=0A=09=09#gdpr-legal{=
+=0A=09=09=09padding-top:20px;=0A=09=09=09margin:0;=0A=09=09}=0A=09=09.gd=
+pr-footer{=0A=09=09=09margin:0 -20px 0 -20px;=0A=09=09=09padding:20px;=
+=0A=09=09=09background:rgba(255=2C 255=2C 255=2C 0.9);=0A=09=09=09overfl=
+ow:auto;=0A=09=09=09color:#6d6d6d;=0A=09=09}=0A=09=09.gdpr-footer p{=0A=
+=09=09=09font-size:10px;=0A=09=09=09line-height:1.5;=0A=09=09=09margin-b=
+ottom:0;=0A=09=09}=0A=09=09.gdpr-footer a{=0A=09=09=09color:#206578;=0A=
+=09=09}=0A=09=09.gdpr-footer img{=0A=09=09=09width:65px;=0A=09=09=09floa=
+t:left;=0A=09=09=09margin-right:15px;=0A=09=09}=0A</style></head>=0A   =
+ <body leftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=
+=3D"0" offset=3D"0" style=3D"font: 14px/20px 'Helvetica'=2C Arial=2C san=
+s-serif;margin: 0;padding: 75px 0 0 0;text-align: center;-webkit-text-si=
+ze-adjust: none;background-color: #ffffff;">=0A    =09<center>=0A      =
+  =09<table border=3D"0" cellpadding=3D"20" cellspacing=3D"0" height=3D"=
+100%" width=3D"100%" id=3D"bodyTable" style=3D"background-color: #ffffff=
+;">=0A            =09<tr>=0A                =09<td align=3D"center" vali=
+gn=3D"top">=0A                    =09<!-- // BEGIN CONTAINER -->=0A    =
+                    <!--[if gte mso 9]>=0A                        <table=
+ align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"600" style=3D"width:600px;">=0A                        <tr>=0A     =
+                   <td align=3D"center" valign=3D"top" width=3D"600" sty=
+le=3D"width:600px;">=0A                        <![endif]-->=0A         =
+               <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" style=3D"max-width: 600px;border-radius: 6px;background-co=
+lor: none;" id=3D"templateContainer" class=3D"rounded6">=0A            =
+            =09<tr>=0A                            =09<td align=3D"center=
+" valign=3D"top">=0A                                =09<!-- // BEGIN HEA=
+DER -->=0A                                    <table border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"max-width:600px">=
+=0A                                    =09<tr>=0A                      =
+                  =09<td>=0A                                           =
+ =09<h1 style=3D"font-size: 28px;line-height: 110%;margin-bottom: 30px;m=
+argin-top: 0;padding: 0;"><span style=3D"font-family: Arial; "><span sty=
+le=3D"color: rgb(0=2C 0=2C 0); ">&nbsp;hacker<span style=3D"color: rgb(2=
+55=2C 102=2C 0); ">news</span>letter</span></span></h1>=0A             =
+                               </td>=0A                                =
+        </tr>=0A                                    </table>=0A        =
+                        =09<!-- END HEADER \\ -->=0A                   =
+             </td>=0A                            </tr>=0A              =
+          =09<tr>=0A                            =09<td align=3D"center"=
+ valign=3D"top">=0A                                =09<!-- // BEGIN BODY=
+ -->=0A                                =09<table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"max-width: 600px;borde=
+r-radius: 6px;background-color: #ffffff;" id=3D"templateBody" class=3D"r=
+ounded6">=0A                                    =09<tr>=0A             =
+                               =0A                                     =
+       <td align=3D"left" valign=3D"top" class=3D"bodyContent" style=3D"=
+line-height: 150%;font-family: Arial;font-size: 14px;color: #333333;padd=
+ing: 20px;">=0A                                                =0A     =
+                                           <h2 style=3D"font-size: 22px;=
+line-height: 28px;margin: 0 0 12px 0;">Please Confirm Subscription=0A</h=
+2>=0A<a class=3D"formEmailButton" href=3D"https://us1.mailchimp.com/mctx=
+/clicks?url=3Dhttps%3A%2F%2Fhackernewsletter.us1.list-manage.com%2Fsubsc=
+ribe%2Fconfirm%3Fu%3Dfaa8eb4ef3a111cef92c4f3d4%26id%3De505c88a2e%26e%3D1=
+d7caae428&h=3Debed59d69333f1cf9979838ea1ffc133823ca4f79eae19ebe7b076f539=
+67511e&v=3D1&xid=3D5b1b1f68f8&uid=3D1832689&pool=3Dcontact_facing&subjec=
+t=3DHacker+Newsletter%3A+Please+Confirm+Subscription" style=3D"color: #f=
+fffff !important;display: inline-block;font-weight: 500;font-size: 16px;=
+line-height: 42px;font-family: 'Helvetica'=2C Arial=2C sans-serif;width:=
+ auto;white-space: nowrap;height: 42px;margin: 12px 5px 12px 0;padding:=
+ 0 22px;text-decoration: none;text-align: center;cursor: pointer;border:=
+ 0;border-radius: 3px;vertical-align: top;background-color: #5d5d5d !imp=
+ortant;"><span style=3D"display: inline;font-family: 'Helvetica'=2C Aria=
+l=2C sans-serif;text-decoration: none;font-weight: 500;font-style: norma=
+l;font-size: 16px;line-height: 42px;cursor: pointer;border: none;backgro=
+und-color: #5d5d5d !important;color: #ffffff !important;">Yes=2C subscri=
+be me to this list.</span></a>=0A<br>=0A<div><p style=3D"padding: 0 0 10=
+px 0;">If you received this email by mistake=2C simply delete it. You wo=
+n't be subscribed if you don't click the confirmation link above.</p>=0A=
+=0A<p style=3D"padding: 0 0 10px 0;">For questions about this list=2C pl=
+ease contact:=0A<br><a href=3D"mailto:kale@hackernewsletter.com" style=
+=3D"color: #336699;">kale@hackernewsletter.com</a></p>=0A</div>=0A=0A=0A=
+<span itemscope=3D"" itemtype=3D"http://schema.org/EmailMessage">=0A  <s=
+pan itemprop=3D"description" content=3D"We need to confirm your email ad=
+dress."></span>=0A  <span itemprop=3D"action" itemscope=3D"" itemtype=3D=
+"http://schema.org/ConfirmAction">=0A    <meta itemprop=3D"name" content=
+=3D"Confirm Subscription">=0A    <span itemprop=3D"handler" itemscope=3D=
+"" itemtype=3D"http://schema.org/HttpActionHandler">=0A      <meta itemp=
+rop=3D"url" content=3D"https://hackernewsletter.us1.list-manage.com/subs=
+cribe/smartmail-confirm?u=3Dfaa8eb4ef3a111cef92c4f3d4&id=3De505c88a2e&e=
+=3D1d7caae428&inline=3Dtrue">=0A      <link itemprop=3D"method" href=3D"=
+http://schema.org/HttpRequestMethod/POST">=0A    </span>=0A  </span>=0A<=
+/span>=0A=0A=0A                                            </td>=0A    =
+                                        =0A                            =
+            </tr>=0A                                    </table>=0A    =
+                                <!-- END BODY \\ -->=0A                =
+                </td>=0A                            </tr>=0A           =
+             =09<tr>=0A                            =09<td align=3D"cente=
+r" valign=3D"top">=0A                                =09<!-- // BEGIN FO=
+OTER -->=0A                                =09<table border=3D"0" cellpa=
+dding=3D"20" cellspacing=3D"0" width=3D"100%" style=3D"max-width:600px">=
+=0A                                    =09<tr>=0A                      =
+                  =09<td align=3D"center" valign=3D"top">=0A           =
+                                     =0A                               =
+                 <div>=0A                                              =
+      <span class=3D"poweredBy" style=3D"display: block;"><a href=3D"htt=
+ps://us1.mailchimp.com/mctx/clicks?url=3Dhttp%3A%2F%2Fwww.mailchimp.com%=
+2Femail-referral%2F%3Futm_source%3Dfreemium_newsletter%26utm_medium%3Dem=
+ail%26utm_campaign%3Dreferral_marketing%26aid%3Dfaa8eb4ef3a111cef92c4f3d=
+4%26afl%3D1&h=3D8c242efc3715286f19d2759b941fef2636b9f380c36b26613b348ef5=
+94cb00a4&v=3D1&xid=3D5b1b1f68f8&uid=3D1832689&pool=3Dcontact_facing&subj=
+ect=3DHacker+Newsletter%3A+Please+Confirm+Subscription" style=3D"color:=
+ #336699;"><img src=3D"https://cdn-images.mailchimp.com/monkey_rewards/b=
+anner-1.png" border=3D"0" alt=3D"Email Marketing Powered by Mailchimp" t=
+itle=3D"Mailchimp Email Marketing" width=3D"162" height=3D"64" style=3D"=
+max-width: 100%; height: auto;"></a></span>=0A                         =
+                       </div>=0A                                       =
+         =0A                                            </td>=0A       =
+                                 </tr>=0A                              =
+      </table>=0A                                    <!-- END FOOTER \\=
+ -->=0A                                </td>=0A                        =
+    </tr>=0A                        </table>=0A                        <=
+!--[if gte mso 9]>=0A                        </td>=0A                  =
+      </tr>=0A                        </table>=0A                      =
+  <![endif]-->=0A                        <!-- END CONTAINER \\ -->=0A  =
+                  </td>=0A                </tr>=0A            </table>=
+=0A        </center>=0A    <img src=3D"https://us1.mailchimp.com/mctx/op=
+ens?xid=3D5b1b1f68f8&uid=3D1832689&pool=3Dcontact_facing&subject=3DHacke=
+r+Newsletter%3A+Please+Confirm+Subscription" height=3D"1" width=3D"1" al=
+t=3D""></body>=0A</html>
+--_----------=_MCPart_801097293--
+
+

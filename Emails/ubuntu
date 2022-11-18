@@ -1,0 +1,128 @@
+From brandondevault@gmail.com  Thu Dec  2 16:50:58 2021
+Return-Path: <brandondevault@gmail.com>
+X-Original-To: ubuntu@mail.globocat.com
+Delivered-To: ubuntu@mail.globocat.com
+Received: from mail-wm1-f51.google.com (mail-wm1-f51.google.com [209.85.128.51])
+	by mail.globocat.com (Postfix) with ESMTPS id AA2607E767
+	for <ubuntu@mail.globocat.com>; Thu,  2 Dec 2021 16:50:58 +0000 (UTC)
+Received: by mail-wm1-f51.google.com with SMTP id y196so248607wmc.3
+        for <ubuntu@mail.globocat.com>; Thu, 02 Dec 2021 08:51:02 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=LUgbCDJY//PfZI5tP+4mBdX3PWZeM3NE9Pd5cAE66pk=;
+        b=SJaxznRjhCy6DJzNJXsA/Ng7guHKChWNYPReeO9jKF4abpwIsxPsUXXGhjpxqN+maa
+         XTin5NEBANPbDzEwmUkEH7A6hx8umj8Pn0U9tiyXdSBKd/PL24rP1jAIl5mLOg6BaQ7+
+         Yr4kT6+eoDSFr4cdtyH4YqNPiE5LQ8Mac1c7yJXwR1alPylbkgW+u9p6gKe7+3OpM30C
+         qeQVV6ZsPLKM1ZDfyRel7fr5b24g5hEDh8MOw6KGEKrdPB6/v2+RBkX/E5roNS91ZvgW
+         5WeIJWezx82nJYsdlRsdZexJ6/kr0dmraCmTkwNeuzuW8EOPfXZsQ40Elv2ZtQXVzsOD
+         r54g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=LUgbCDJY//PfZI5tP+4mBdX3PWZeM3NE9Pd5cAE66pk=;
+        b=zMZ81ler32VKCwSztt0Vp4HfeK/ajzqJa8MECfrzz3N6wri0tMHXY8ZB44j5M2iWRk
+         vCvSI7PfVKus0oiXWrZgVTyPuHCKYKhfmhK9/Xvl4Z5dpZOAlHwkPbiOVDJeLE78oAKL
+         s8mkug1M562zm9HoJLDQvOhHNErgbX7Ihjn4ZOY9rSWLLAQU5mwAs2NPMHGMYtQH7AEk
+         rr3nf8HBC28eG+o+R/fXeX3pep1qqbq+k02Fb+j0pdooSS+QmEE1mxzpth40/CXhc7Af
+         Rmns8AkXOrVD+qUhwloT1BuN6RlWSqv2rooJjSyVWAsyVZ23rg3S9BvsQKk65uZsOlmN
+         SDBA==
+X-Gm-Message-State: AOAM533gTztGh5s8QwP30HQjoomUF81KsfcXOv9ZFeqiYhCqOkSILUDs
+	ksrRkNZAWgCirAHKCxcBwOfHI7VJ9FETVAGZ3JHwKN6R
+X-Google-Smtp-Source: ABdhPJxeL+oM732ZtmC/DxJGC+IeslsEau6yWB8K1VZoqvXxyogwjGlFKK+j6qJE1T5z2HAeLIursSQwDDjW59kguZo=
+X-Received: by 2002:a1c:8002:: with SMTP id b2mr7945285wmd.2.1638463861136;
+ Thu, 02 Dec 2021 08:51:01 -0800 (PST)
+MIME-Version: 1.0
+From: Brandon DeVault <brandondevault@gmail.com>
+Date: Thu, 2 Dec 2021 11:50:52 -0500
+Message-ID: <CAAqn+wtR2b1CBoOW+HgxFzgGqB83V15Xd+5=wpNmuvkaBQYTsA@mail.gmail.com>
+Subject: test email 2
+To: ubuntu@mail.globocat.com
+Content-Type: multipart/alternative; boundary="0000000000006ba03b05d22c9865"
+X-IMAPbase: 1638465405 3
+Status: O
+X-UID: 2
+
+--0000000000006ba03b05d22c9865
+Content-Type: text/plain; charset="UTF-8"
+
+second email sent for testing
+
+--0000000000006ba03b05d22c9865
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr">second email sent for testing</div>
+
+--0000000000006ba03b05d22c9865--
+
+From MAILER-DAEMON  Tue Dec  7 16:45:29 2021
+Return-Path: <>
+X-Original-To: ubuntu@globocat.com
+Delivered-To: ubuntu@globocat.com
+Received: by mail.globocat.com (Postfix)
+	id 93CD57E5CB; Tue,  7 Dec 2021 16:45:29 +0000 (UTC)
+Date: Tue,  7 Dec 2021 16:45:29 +0000 (UTC)
+From: MAILER-DAEMON@globocat.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ubuntu@globocat.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="C6C697E762.1638895529/mail.globocat.com"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20211207164529.93CD57E5CB@mail.globocat.com>
+
+This is a MIME-encapsulated message.
+
+--C6C697E762.1638895529/mail.globocat.com
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.globocat.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<brandondevault@gmail.com>: connect to
+    alt2.gmail-smtp-in.l.google.com[142.250.152.27]:25: Connection timed out
+
+--C6C697E762.1638895529/mail.globocat.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.globocat.com
+X-Postfix-Queue-ID: C6C697E762
+X-Postfix-Sender: rfc822; ubuntu@globocat.com
+Arrival-Date: Thu,  2 Dec 2021 15:50:48 +0000 (UTC)
+
+Final-Recipient: rfc822; brandondevault@gmail.com
+Original-Recipient: rfc822;brandondevault@gmail.com
+Action: failed
+Status: 4.4.1
+Diagnostic-Code: X-Postfix; connect to
+    alt2.gmail-smtp-in.l.google.com[142.250.152.27]:25: Connection timed out
+
+--C6C697E762.1638895529/mail.globocat.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <ubuntu@globocat.com>
+Received: by mail.globocat.com (Postfix, from userid 1000)
+	id C6C697E762; Thu,  2 Dec 2021 15:50:48 +0000 (UTC)
+Message-Id: <20211202155048.C6C697E762@mail.globocat.com>
+Date: Thu,  2 Dec 2021 15:50:48 +0000 (UTC)
+From: Ubuntu <ubuntu@globocat.com>
+
+test email
+
+--C6C697E762.1638895529/mail.globocat.com--
+

@@ -1,0 +1,790 @@
+From bounce-mcsys.us1_1135689.506cb72da1.NA-jmorton=globocat.com@mail12.mcsignup.com  Thu Dec  2 18:32:16 2021
+Return-Path: <bounce-mcsys.us1_1135689.506cb72da1.NA-jmorton=globocat.com@mail12.mcsignup.com>
+X-Original-To: jmorton@globocat.com
+Delivered-To: jmorton@globocat.com
+Received: from mail12.mcsignup.com (mail12.mcsignup.com [198.2.140.132])
+	by mail.globocat.com (Postfix) with ESMTPS id D29D07E5CB
+	for <jmorton@globocat.com>; Thu,  2 Dec 2021 18:32:15 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=smashingmagazine.com; s=k1; t=1638469939;
+	i=newsletter@smashingmagazine.com;
+	bh=ZJWMuvi+GyWntF440EyiScQrzqryIhwq3O8QZlNLbpc=;
+	h=From:Reply-To:To:Date:Message-ID:Subject:Form-Sub:MIME-Version:
+	 Content-Type;
+	b=bM9V9lQf2LTMqaCuCC8PEJeJ5fiALZiFbCtzmUyS8QClKtiYSI+09ZpXpNLc9gCpM
+	 XIxUP5Lm/mg3BH90+nc5HSFVDKcCuRMKQBjkkYzDneZuZRhhxDIAKApC2xWB4M9ToH
+	 6hua8S2hHbW/zsXNAdOIV66iEg4yQteGM1BUPB+c=
+Received: from 127.0.0.1 (localhost [127.0.0.1])
+	by mail12.mcsignup.com (Mailchimp) with ESMTP id 4J4l1H215CzJKGVkf
+	for <jmorton@globocat.com>; Thu,  2 Dec 2021 18:32:19 +0000 (GMT)
+From: =?utf-8?Q?Vitaly=20Friedman=20=28Smashing=20Magazine=29?= <newsletter@smashingmagazine.com>
+Reply-To: =?utf-8?Q?Vitaly=20Friedman=20=28Smashing=20Magazine=29?= <newsletter@smashingmagazine.com>
+To:  <jmorton@globocat.com>
+Date: Thu, 02 Dec 2021 18:32:19 +0000
+Message-ID: <16b832d9ad4b28edf261f34df0f5c4d6b36.20211202183219@mail12.mcsignup.com>
+X-Mailer: MailChimp Mailer - **CID506cb72da10f5c4d6b36**
+X-Campaign: mailchimp16b832d9ad4b28edf261f34df.506cb72da1
+X-campaignid: mailchimp16b832d9ad4b28edf261f34df.506cb72da1
+X-Report-Abuse: Please report abuse for this campaign here: https://mailchimp.com/contact/abuse/?u=16b832d9ad4b28edf261f34df&id=506cb72da1&e=0f5c4d6b36
+X-MC-User: 16b832d9ad4b28edf261f34df
+X-Feedback-ID: 1135689:1135689.506cb72da1:us1:mc
+X-Auto-Response-Suppress: OOF, AutoReply
+X-Accounttype: pd
+Subject: =?utf-8?Q?Smashing=20Newsletter=3A=20Just=20one=20more=20thing=20=E2=80=94=20please=20confirm=20email.?=
+Form-Sub: v=1;ip4=73.105.30.80
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1875943931"
+
+
+--_----------=_MCPart_1875943931
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Smashing Email Newsletter=0D=0A-----------------------------------------=
+-------=0D=0A=0D=0AClick this link to confirm your subscription:=0D=0A=
+=0D=0Ahttps://us1.mailchimp.com/mctx/clicks?url=3Dhttps%3A%2F%2Fsmashing=
+magazine.us1.list-manage.com%2Fsubscribe%2Fconfirm%3Fu%3D16b832d9ad4b28e=
+df261f34df%26id%3Da1666656e0%26e%3Df388eddcea&h=3D55539bb0f7b6525ba6760c=
+863724ca25490bbc7971f75240207c6944953040fe&v=3D1&xid=3D506cb72da1&uid=3D=
+1135689&pool=3Dcontact_facing&subject=3D%3D%3Futf-8%3FQ%3FSmashing%3D20N=
+ewsletter%3D3A%3D20Just%3D20one%3D20more%3D20thing%3D20%3DE2%3D80%3D94%3=
+D20please%3D20confirm%3D20email.%3F%3D=0D=0A=0D=0AIf the link is not cli=
+ckable=2C copy-paste it into=0D=0Ayour web browser.=0D=0A=0D=0A---------=
+---------------------------------------=0D=0A=0D=0AIf you received this=
+ email by mistake=2C=0D=0Asimply delete it. You won't be subscribed if=
+=0D=0Ayou don't click the confirmation link above.=0D=0A=0D=0AFor questi=
+ons=2C contact:=0D=0Anewsletter@smashingmagazine.com
+--_----------=_MCPart_1875943931
+Content-Type: text/html; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://w=
+ww.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=0D=0A<html xmlns=3D"ht=
+tp://www.w3.org/1999/xhtml">=0D=0A    <head>=0D=0A        <meta http-equ=
+iv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=0D=0A      =
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width=2C initial-sca=
+le=3D1.0">=0D=0A        <title>Meow=2C and please confirm your email!</t=
+itle>=0D=0A    <style type=3D"text/css">=0D=0A    @font-face{font-family=
+:Elena;src:url("https://d33wubrfki0l68.cloudfront.net/a978f759fa0230c1e5=
+90d1bdb5a1c03ceb538cec/fed6b/fonts/elenawebregular/elenawebregular.woff2=
+") format("woff2")=2Curl("https://d33wubrfki0l68.cloudfront.net/9c2752fa=
+b289f61c6ed3a1f78ab60fb2034103b7/bf691/fonts/elenawebregular/elenawebreg=
+ular.woff") format("woff")}@font-face{font-family:Elena;src:url("https:/=
+/d33wubrfki0l68.cloudfront.net/151446eb4ad2f20af89f3132f66d03cc92c856f4/=
+74612/fonts/elenawebregularitalic/elenawebregularitalic.woff2") format("=
+woff2")=2Curl("https://d33wubrfki0l68.cloudfront.net/a6275674bf99f00da2e=
+019547d61933d074f2ae7/51beb/fonts/elenawebregularitalic/elenawebregulari=
+talic.woff") format("woff");font-style:italic}@font-face{font-family:Ele=
+na;src:url("https://d33wubrfki0l68.cloudfront.net/a7cc92a2d6ae8ea43370e1=
+4b53d2ce89a2b2b5ab/7cca9/fonts/elenawebbold/elenawebbold.woff2") format(=
+"woff2")=2Curl("https://d33wubrfki0l68.cloudfront.net/c2ebb4866cc6ce6d5f=
+fdb22b616cb3dde4274107/c6bc6/fonts/elenawebbold/elenawebbold.woff") form=
+at("woff");font-weight:700}@font-face{font-family:Mija;src:url("https://=
+d33wubrfki0l68.cloudfront.net/b324ee03d5048d2d1831100e323b0b6336ffce68/0=
+445e/fonts/mijaregular/mija_regular-webfont.woff2") format("woff2")=2Cur=
+l("https://d33wubrfki0l68.cloudfront.net/f94577d0cf99bba539fea500f808f58=
+b9a901521/40166/fonts/mijaregular/mija_regular-webfont.woff") format("wo=
+ff")}@font-face{font-family:Mija;src:url("https://d33wubrfki0l68.cloudfr=
+ont.net/8c51ad0e547205de88c325df7b74f43f95b15723/3f3e6/fonts/mijabold/mi=
+ja_bold-webfont.woff2") format("woff2")=2Curl("https://d33wubrfki0l68.cl=
+oudfront.net/4446baefb4c3d3612c4b52cf02fadb5e87233610/89f85/fonts/mijabo=
+ld/mija_bold-webfont.woff") format("woff");font-weight:700}=0D=0A=0D=0A=
+    #outlook a {padding:0;} /* Force Outlook to provide a "view in brows=
+er" menu link. */=0D=0A    body{width:100% !important; -webkit-text-size=
+-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; line-heigh=
+t: 100% !important;}=0D=0A    /* Prevent Webkit and Windows Mobile platf=
+orms from changing default font sizes.*/=0D=0A    .ExternalClass {width:=
+100%;} /* Force Hotmail to display emails at full width */=0D=0A    .Ext=
+ernalClass=2C .ExternalClass p=2C .ExternalClass span=2C .ExternalClass=
+ font=2C .ExternalClass td=2C .ExternalClass div {line-height: 100%;}=0D=
+=0A    /* Forces Hotmail to display normal line spacing.  More on that:=
+ http://www.emailonacid.com/forum/viewthread/43/ */=0D=0A    #background=
+Table {margin:0; padding:0; width:100% !important; line-height: 100% !im=
+portant;}=0D=0A    /* End reset */=0D=0A=0D=0A      /* Reset Styles */=
+=0D=0A      img{border:0; height:auto; -ms-interpolation-mode: bicubic;=
+ line-height:100%; outline:none; text-decoration:none;}=0D=0A      table=
+ td{border-collapse:collapse;}=0D=0A      #backgroundTable{height:100% !=
+important; margin:0; padding:0; width:100% !important;}=0D=0A=0D=0A    =
+  /* Some sensible defaults for images=0D=0A      Bring inline: Yes. */=
+=0D=0A      a img {border:none;}=0D=0A      .image_fix {display:block;}=
+=0D=0A      .mistake=2C .red { color: #e6492f;}=0D=0A      .success=2C .=
+green { color: #20a12c; }=0D=0A      .invisible-preview {=0D=0A        h=
+eight: 0 !important;=0D=0A        line-height: 0 !important;=0D=0A     =
+   font-size: 1px !important;=0D=0A        color: transparent !important=
+;=0D=0A        display: inline !important;=0D=0A      }=0D=0A      .visu=
+al {=0D=0A        text-align: center;=0D=0A        margin: 0 auto;=0D=0A=
+        color: #757575;=0D=0A        padding: 40px 0;=0D=0A      }=0D=0A=
+      .visual em::before {=0D=0A        content: url(data:image/svg+xml;=
+base64=2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g=
+9IjAgMCAxNyAxMy4wOSI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNjMmMyYzI7fTwvc3R=
+5bGU+PC9kZWZzPjx0aXRsZT5jYW1lcmE8L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0=
+iTTguNSA1LjQ0YTIuMjEgMi4yMSAwIDEgMCAyLjIxIDIuMjEgMi4yMSAyLjIxIDAgMCAwLTI=
+uMjEtMi4yMXpNMTQuNzkgMi4yMWgtMi41NWEyLjIxIDIuMjEgMCAwIDAtMi4yNC0yLjIxaC0=
+zYTIuMjEgMi4yMSAwIDAgMC0yLjI0IDIuMjFoLTIuNTVhMi4yMSAyLjIxIDAgMCAwLTIuMjE=
+gMi4yMXY2LjQ2YTIuMjEgMi4yMSAwIDAgMCAyLjIxIDIuMjFoMTIuNThhMi4yMSAyLjIxIDA=
+gMCAwIDIuMjEtMi4yMXYtNi40NmEyLjIxIDIuMjEgMCAwIDAtMi4yMS0yLjIxem0tNi4yOSA=
+5LjM1YTMuOTEgMy45MSAwIDEgMSAzLjkxLTMuOTEgMy45MSAzLjkxIDAgMCAxLTMuOTEgMy4=
+5MXoiLz48L3N2Zz4=3D);=0D=0A        width: 1em;=0D=0A        padding-righ=
+t: .4em;=0D=0A        display: table-cell;=0D=0A        vertical-align:=
+ baseline;=0D=0A        position: relative;=0D=0A        top: .05em;=0D=
+=0A      }=0D=0A      .center {=0D=0A        text-align: center;=0D=0A =
+     }=0D=0A      .small-caps {=0D=0A        text-transform: uppercase;=
+=0D=0A        -ms-font-feature-settings: "smcp" 1=2C"c2sc" 1;=0D=0A    =
+    -o-font-feature-settings: "smcp" 1=2C"c2sc" 1;=0D=0A        font-fea=
+ture-settings: "smcp" 1=2C"c2sc" 1;=0D=0A        font-variant: small-cap=
+s;=0D=0A      }=0D=0A=0D=0A      /* Yahoo paragraph fix=0D=0A      Bring=
+ inline: Yes. */=0D=0A      p {margin: 1em 0;}=0D=0A      .bannerContent=
+ {=0D=0A        background-color: #dedede;=0D=0A      }=0D=0A=0D=0A    =
+  /* Template Styles */=0D=0A=0D=0A      /* /\/\/\/\/\/\/\/\/\/\ STANDAR=
+D STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */=0D=0A=0D=0A    =
+  /**=0D=0A      * @tab Page=0D=0A      * @section background color=0D=
+=0A      * @tip Set the background color for your email. You may want to=
+ choose one that matches your company's branding.=0D=0A      * @theme pa=
+ge=0D=0A      */=0D=0A      body=2C #backgroundTable{=0D=0A        backg=
+round-color:#FFE1C4;=0D=0A        background-color:#ededed;=0D=0A      }=
+=0D=0A=0D=0A      /**=0D=0A      * @tab Page=0D=0A      * @section email=
+ border=0D=0A      * @tip Set the border for your email.=0D=0A      */=
+=0D=0A      #templateContainer{=0D=0A        border-top: 0px solid trans=
+parent;=0D=0A        -webkit-box-shadow: 0px 0px 10px 1px rgba(0=2C 0=2C=
+ 0=2C 0.08);=0D=0A          -moz-box-shadow: 0px 0px 10px 1px rgba(0=2C=
+ 0=2C 0=2C 0.08);=0D=0A          box-shadow: 0px 0px 10px 1px rgba(0=2C=
+ 0=2C 0=2C 0.08);=0D=0A        border-radius: 11px;=0D=0A        margin:=
+ 0 auto;=0D=0A      }=0D=0A=0D=0A=0D=0A      /**=0D=0A      * @tab Page=
+=0D=0A      * @section heading 1=0D=0A      * @tip Set the styling for a=
+ll first-level headings in your emails. These should be the largest of y=
+our headings.=0D=0A      * @style heading 1=0D=0A      */=0D=0A      h1=
+=2C .h1{=0D=0A        color:#e6492f !important;=0D=0A        display:blo=
+ck;=0D=0A        font-family: 'Mija'=2C 'Elena'=2C -apple-system=2C Blin=
+kMacSystemFont=2C AvenirNext=2C Avenir=2C 'Roboto Slab'=2C 'Droid Serif'=
+=2C 'Segoe UI'=2C 'Fira Sans'=2C Oxygen-Sans=2C Ubuntu=2C Cantarell=2C A=
+rial=2C 'Times New Roman'=2C serif;=0D=0A        font-size:36px;=0D=0A =
+       font-weight:bold;=0D=0A        line-height:155%;=0D=0A        mar=
+gin: 0;=0D=0A        padding-top: 30px;=0D=0A        padding-bottom: 15p=
+x;=0D=0A        text-align: left;=0D=0A      }=0D=0A=0D=0A/*      h1.toc=
+ {=0D=0A        padding-top: 40px;=0D=0A      }=0D=0A*/=0D=0A=0D=0A    =
+  table[class=3D"toc-overview"] {=0D=0A        margin-bottom: 45px !impo=
+rtant;=0D=0A      }=0D=0A=0D=0A      table[class=3D"toc-overview"] td {=
+=0D=0A        vertical-align: top;=0D=0A      }=0D=0A=0D=0A      table[c=
+lass=3D"toc-overview"] td a {=0D=0A          display: block !important;=
+=0D=0A        }=0D=0A=0D=0A    .cta {=0D=0A      font-family: 'Mija'=2C=
+ 'Elena'=2C -apple-system=2C BlinkMacSystemFont=2C AvenirNext=2C Avenir=
+=2C 'Roboto Slab'=2C 'Droid Serif'=2C 'Segoe UI'=2C 'Fira Sans'=2C Oxyge=
+n-Sans=2C Ubuntu=2C Cantarell=2C Arial=2C 'Times New Roman'=2C serif;=0D=
+=0A      font-size: 14px;=0D=0A      text-align: center;=0D=0A      marg=
+in: 2.25em auto 2.25em auto;=0D=0A      color: #505050;=0D=0A      line-=
+height: 162%;=0D=0A      max-width: 100%;=0D=0A    }=0D=0A=0D=0A    .cta=
+ a.btn:link=2C .cta a.btn:visited {=0D=0A      font-family: 'Mija'=2C 'E=
+lena'=2C -apple-system=2C BlinkMacSystemFont=2C AvenirNext=2C Avenir=2C=
+ 'Roboto Slab'=2C 'Droid Serif'=2C 'Segoe UI'=2C 'Fira Sans'=2C Oxygen-S=
+ans=2C Ubuntu=2C Cantarell=2C Arial=2C 'Times New Roman'=2C serif;=0D=0A=
+      font-size: 30px;=0D=0A      color: #fff !important;=0D=0A      pad=
+ding: .75em 1.45em;=0D=0A      vertical-align: middle;=0D=0A      text-a=
+lign: center;=0D=0A      margin: 0 auto .08em;=0D=0A      display: block=
+;=0D=0A      font-weight: bold;=0D=0A      background-color:#41B14F;=0D=
+=0A      width: 70%;=0D=0A      max-width: 100%;=0D=0A      line-height:=
+ 1.25em;=0D=0A      border: .04em solid rgba(0=2C0=2C0=2C0.15);=0D=0A  =
+    opacity: 1;=0D=0A      border-radius: .7em;=0D=0A      text-shadow:=
+ 0 .08em .08em rgba(0=2C0=2C0=2C0.1);=0D=0A      -webkit-box-shadow: 0 .=
+08em .1em rgba(0=2C0=2C0=2C0.1);=0D=0A      box-shadow: 0 .08em .1em rgb=
+a(0=2C0=2C0=2C0.1);=0D=0A      -webkit-transition: all ease .2s;=0D=0A =
+     -o-transition: all ease .2s;=0D=0A      transition: all ease .2s;=
+=0D=0A      margin-bottom:0.5em !important;=0D=0A      position:relative=
+;=0D=0A      top:0;=0D=0A      text-decoration: none !important;=0D=0A =
+   }=0D=0A=0D=0A    .cta a[class=3D"btn"]:hover=2C .cta a.btn:hover {=0D=
+=0A      cursor:pointer;=0D=0A      opacity:.95;=0D=0A      outline:0;=
+=0D=0A      border-color:rgba(0=2C0=2C0=2C.25) !important;=0D=0A    }=0D=
+=0A=0D=0A    .cta a.btn:focus=2C .cta a[class=3D"btn"]:focus=2C .cta a.b=
+tn:active=2C .cta a[class=3D"btn"]:active{=0D=0A      opacity:1;=0D=0A =
+     box-shadow:inset 0 .13em .13em rgba(0=2C0=2C0=2C.4)=2Cinset 0 -.13e=
+m .13em rgba(255=2C255=2C255=2C.1) !important;=0D=0A      top: 4px;=0D=
+=0A      outline:0 !important;=0D=0A      color:rgba(255=2C255=2C255=2C.=
+95) !important;=0D=0A      border-bottom: .04em solid rgba(0=2C0=2C0=2C.=
+075) !important;=0D=0A      /* outline: 3px dotted #cc0000; outline-offs=
+et: 10px; */=0D=0A    }=0D=0A=0D=0A      /**=0D=0A      * @tab Page=0D=
+=0A      * @section heading 2=0D=0A      * @tip Set the styling for all=
+ second-level headings in your emails.=0D=0A      * @style heading 2=0D=
+=0A      */=0D=0A      h2=2C .h2{=0D=0A        color:#333 !important;=0D=
+=0A        display:block;=0D=0A        font-family: 'Mija'=2C 'Elena'=2C=
+ -apple-system=2C BlinkMacSystemFont=2C AvenirNext=2C Avenir=2C 'Roboto=
+ Slab'=2C 'Droid Serif'=2C 'Segoe UI'=2C 'Fira Sans'=2C Oxygen-Sans=2C U=
+buntu=2C Cantarell=2C Arial=2C 'Times New Roman'=2C serif;=0D=0A       =
+ font-size:28px;=0D=0A        font-weight:bold;=0D=0A        line-height=
+:145%;=0D=0A        margin:65px 0 15px 0;=0D=0A        text-align:left;=
+=0D=0A      }=0D=0A=0D=0A      /**=0D=0A      * @tab Page=0D=0A      * @=
+section heading 3=0D=0A      * @tip Set the styling for all third-level=
+ headings in your emails.=0D=0A      * @style heading 3=0D=0A      */=0D=
+=0A      h3=2C .h3{=0D=0A        color:#e6492f !important;=0D=0A       =
+ display:block;=0D=0A        font-family: 'Mija'=2C 'Elena'=2C -apple-sy=
+stem=2C BlinkMacSystemFont=2C AvenirNext=2C Avenir=2C 'Roboto Slab'=2C '=
+Droid Serif'=2C 'Segoe UI'=2C 'Fira Sans'=2C Oxygen-Sans=2C Ubuntu=2C Ca=
+ntarell=2C Arial=2C 'Times New Roman'=2C serif;=0D=0A        font-size:2=
+4px;=0D=0A        font-weight:bold;=0D=0A        line-height:145%;=0D=0A=
+        margin:40px 0 15px 0;=0D=0A        text-align:left;=0D=0A      }=
+=0D=0A=0D=0A      /**=0D=0A      * @tab Page=0D=0A      * @section headi=
+ng 4=0D=0A      * @tip Set the styling for all fourth-level headings in=
+ your emails. These should be the smallest of your headings.=0D=0A     =
+ * @style heading 4=0D=0A      */=0D=0A      h4=2C .h4{=0D=0A        col=
+or:#333 !important;=0D=0A        text-transform: uppercase;=0D=0A      =
+  letter-spacing: 1px;=0D=0A        display:block;=0D=0A        font-fam=
+ily: 'Mija'=2C 'Elena'=2C -apple-system=2C BlinkMacSystemFont=2C AvenirN=
+ext=2C Avenir=2C 'Roboto Slab'=2C 'Droid Serif'=2C 'Segoe UI'=2C 'Fira S=
+ans'=2C Oxygen-Sans=2C Ubuntu=2C Cantarell=2C Arial=2C 'Times New Roman'=
+=2C serif;=0D=0A        font-size:18px;=0D=0A        font-weight:bold;=
+=0D=0A        line-height:145%;=0D=0A        margin:40px 0 15px 0;=0D=0A=
+        text-align:left;=0D=0A      }=0D=0A=0D=0A      code {=0D=0A    =
+    background-color: #fff2cc;=0D=0A        border-radius: 11px;=0D=0A =
+       padding: .75em 1em;=0D=0A        line-height: 1.5em;=0D=0A      =
+  display: inline-block;=0D=0A      }=0D=0A=0D=0A      /* /\/\/\/\/\/\/\=
+/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\ */=0D=0A=0D=0A =
+     /**=0D=0A      * @tab Header=0D=0A      * @section preheader style=
+=0D=0A      * @tip Set the background color for your email's preheader a=
+rea.=0D=0A      * @theme page=0D=0A      */=0D=0A      #templatePreheade=
+r{=0D=0A        background-color:#FFFFFF;=0D=0A        -webkit-box-shado=
+w: 0px 0px 10px 1px rgba(0=2C 0=2C 0=2C 0.05);=0D=0A          -moz-box-s=
+hadow: 0px 0px 10px 1px rgba(0=2C 0=2C 0=2C 0.05);=0D=0A          box-sh=
+adow: 0px 0px 10px 1px rgba(0=2C 0=2C 0=2C 0.05);=0D=0A        border-ra=
+dius: 12px 12px 0 0;=0D=0A      }=0D=0A=0D=0A      /**=0D=0A      * @tab=
+ Header=0D=0A      * @section preheader text=0D=0A      * @tip Set the s=
+tyling for your email's preheader text. Choose a size and color that is=
+ easy to read.=0D=0A      */=0D=0A      .preheaderContent div{=0D=0A   =
+     color:#505050;=0D=0A        font-family: 'Elena'=2C -apple-system=
+=2C BlinkMacSystemFont=2C AvenirNext=2C Avenir=2C 'Roboto Slab'=2C 'Droi=
+d Serif'=2C 'Segoe UI'=2C 'Fira Sans'=2C Oxygen-Sans=2C Ubuntu=2C Cantar=
+ell=2C Arial=2C 'Times New Roman'=2C serif;=0D=0A        font-size:10px;=
+=0D=0A        line-height:100%;=0D=0A        text-align:middle;=0D=0A  =
+    }=0D=0A=0D=0A      /**=0D=0A      * @tab Header=0D=0A      * @sectio=
+n preheader link=0D=0A      * @tip Set the styling for your email's preh=
+eader links. Choose a color that helps them stand out from your text.=0D=
+=0A      */=0D=0A      .preheaderContent div a:link=2C .preheaderContent=
+ div a:visited=2C /* Yahoo! Mail Override */ .preheaderContent div a .ys=
+hortcuts /* Yahoo! Mail Override */{=0D=0A        color:#336699 !importa=
+nt;=0D=0A        font-weight:normal;=0D=0A        text-decoration:underl=
+ine;=0D=0A      }=0D=0A=0D=0A      .preheaderContent img{=0D=0A        d=
+isplay:inline;=0D=0A        height:auto;=0D=0A        margin-bottom:0px;=
+=0D=0A      }=0D=0A=0D=0A      /* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING:=
+ HEADER /\/\/\/\/\/\/\/\/\/\ */=0D=0A=0D=0A      /**=0D=0A      * @tab H=
+eader=0D=0A      * @section header style=0D=0A      * @tip Set the backg=
+round color and border for your email's header area.=0D=0A      * @theme=
+ header=0D=0A      */=0D=0A      #templateHeader{=0D=0A        backgroun=
+d-color:#FFFFFF;=0D=0A        border-bottom:0;=0D=0A=0D=0A      }=0D=0A=
+=0D=0A      /**=0D=0A      * @tab Header=0D=0A      * @section header te=
+xt=0D=0A      * @tip Set the styling for your email's header text. Choos=
+e a size and color that is easy to read.=0D=0A      */=0D=0A      .heade=
+rContent{=0D=0A        color:#202020;=0D=0A        font-family: 'Elena'=
+=2C -apple-system=2C BlinkMacSystemFont=2C AvenirNext=2C Avenir=2C 'Robo=
+to Slab'=2C 'Droid Serif'=2C 'Segoe UI'=2C 'Fira Sans'=2C Oxygen-Sans=2C=
+ Ubuntu=2C Cantarell=2C Arial=2C 'Times New Roman'=2C serif;=0D=0A     =
+   font-size:34px;=0D=0A        font-weight:bold;=0D=0A        line-heig=
+ht:100%;=0D=0A        padding:0;=0D=0A        text-align:center;=0D=0A =
+       vertical-align:middle;=0D=0A=0D=0A      }=0D=0A=0D=0A      /**=0D=
+=0A      * @tab Header=0D=0A      * @section header link=0D=0A      * @t=
+ip Set the styling for your email's header links. Choose a color that he=
+lps them stand out from your text.=0D=0A      */=0D=0A      .headerConte=
+nt a:link=2C .headerContent a:visited=2C /* Yahoo! Mail Override */ .hea=
+derContent a .yshortcuts /* Yahoo! Mail Override */{=0D=0A        color:=
+#336699 !important;=0D=0A        font-weight:normal;=0D=0A        text-d=
+ecoration:underline;=0D=0A      }=0D=0A=0D=0A      #headerImage{=0D=0A =
+       height:auto;=0D=0A        width:100%;=0D=0A      }=0D=0A=0D=0A  =
+    /* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\=
+/\/\ */=0D=0A=0D=0A      /**=0D=0A      * @tab Body=0D=0A      * @sectio=
+n body style=0D=0A      * @tip Set the background color for your email's=
+ body area.=0D=0A      */=0D=0A      #templateContainer=2C .bodyContent{=
+=0D=0A        background-color:#FFFFFF;=0D=0A      }=0D=0A=0D=0A      /*=
+*=0D=0A      * @tab Body=0D=0A      * @section body text=0D=0A      * @t=
+ip Set the styling for your email's main content text. Choose a size and=
+ color that is easy to read.=0D=0A      * @theme main=0D=0A      */=0D=
+=0A      .bodyContent div{=0D=0A        color:#505050;=0D=0A        font=
+-family: 'Elena'=2C -apple-system=2C BlinkMacSystemFont=2C AvenirNext=2C=
+ Avenir=2C 'Roboto Slab'=2C 'Droid Serif'=2C 'Segoe UI'=2C 'Fira Sans'=
+=2C Oxygen-Sans=2C Ubuntu=2C Cantarell=2C Arial=2C 'Times New Roman'=2C=
+ serif;=0D=0A        font-size:22px !important;=0D=0A        line-height=
+:160% !important;=0D=0A        text-align:left;=0D=0A        max-width:=
+ 100%;=0D=0A      }=0D=0A=0D=0A=0D=0A      /**=0D=0A      * @tab Body=0D=
+=0A      * @section body link=0D=0A      * @tip Set the styling for your=
+ email's main content links. Choose a color that helps them stand out fr=
+om your text.=0D=0A      */=0D=0A      .bodyContent div a:link=2C .bodyC=
+ontent div a:visited=2C /* Yahoo! Mail Override */ .bodyContent div a .y=
+shortcuts /* Yahoo! Mail Override */{=0D=0A        color:#006fc6 !import=
+ant;=0D=0A        font-weight:normal;=0D=0A        text-decoration:under=
+line;=0D=0A        padding: 10px 0;=0D=0A      }=0D=0A=0D=0A      .heade=
+rContent div a:link=2C .headerContent div a:visited=2C .footerContent di=
+v a:link=2C .footerContent div a:visited=2C /* Yahoo! Mail Override */ .=
+footerContent div a .yshortcuts {=0D=0A        color: #006fc6;=0D=0A   =
+     padding: 10px 0;=0D=0A        text-decoration: underline;=0D=0A   =
+   }=0D=0A=0D=0A      .bodyContent div .visual a:link=2C .bodyContent di=
+v .visual a:focus=2C .bodyContent div .visual a:active {=0D=0A        ba=
+ckground-image: none;=0D=0A      }=0D=0A=0D=0A      .bodyContent div .vi=
+sual em a {=0D=0A        background-image: linear-gradient(#7296C5=2C#72=
+96C5) !important;=0D=0A      }=0D=0A=0D=0A      .bodyContent div .visual=
+ em a:focus=2C=0D=0A      .bodyContent div .visual em a:active {=0D=0A =
+       background-image: linear-gradient(#d33a2c=2C#d33a2c)  !important;=
+=0D=0A      }=0D=0A=0D=0A      .bodyContent div a:visited {=0D=0A      =
+  color: #006fc6 !important;=0D=0A        font-weight: normal;=0D=0A   =
+     text-decoration: underline;=0D=0A      }=0D=0A=0D=0A      .bannerCo=
+ntent a:focus=2C .bodyContent div a:focus {=0D=0A        outline: 3px do=
+tted #d33a2c !important;=0D=0A        color: #d33a2c !important;=0D=0A =
+     }=0D=0A=0D=0A      .footerContent div a:focus {=0D=0A        outlin=
+e: 3px dotted #d33a2c !important;        =0D=0A      }=0D=0A=0D=0A     =
+ .bodyContent img{=0D=0A        display:inline;=0D=0A        height:auto=
+;=0D=0A        margin-top: 15px;=0D=0A        margin-bottom:15px;=0D=0A=
+      }=0D=0A=0D=0A      .bodyContent p {=0D=0A        margin-bottom: 16=
+px;=0D=0A      }=0D=0A=0D=0A      hr {=0D=0A        color: #E6E8E6;=0D=
+=0A        background-color: #E6E8E6;=0D=0A        height: 1px;=0D=0A  =
+      border: 0;=0D=0A        margin: 35px 0;=0D=0A      }=0D=0A=0D=0A =
+     ul {=0D=0A        margin: 30px 0;=0D=0A      }=0D=0A=0D=0A      ul=
+ li {=0D=0A        padding: 10px 0 !important;=0D=0A      }=0D=0A=0D=0A=
+      ul[class=3D"workshops"] {=0D=0A        margin: 15px 0;=0D=0A     =
+ }=0D=0A=0D=0A      ul[class=3D"highlights"]=2C ul[class=3D"recent"] {=
+=0D=0A        list-style-type: square;=0D=0A        margin: 30px 0;=0D=
+=0A      }=0D=0A=0D=0A      .recent li=2C .workshops li {=0D=0A        /=
+* margin-bottom: 4px !important; */=0D=0A        padding: 4px 3px 4px 0=
+ !important;=0D=0A      }=0D=0A=0D=0A      .recent li a=2C .workshops li=
+ a {=0D=0A        display: block !important;=0D=0A      }=0D=0A=0D=0A  =
+    /* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/=
+\ */=0D=0A=0D=0A      /**=0D=0A      * @tab Footer=0D=0A      * @section=
+ footer style=0D=0A      * @tip Set the background color and top border=
+ for your email's footer area.=0D=0A      * @theme footer=0D=0A      */=
+=0D=0A      #templateFooter{=0D=0A        background-color:#FFFFFF;=0D=
+=0A        border-top:0;=0D=0A        margin: 30px 0 20px 0;=0D=0A     =
+ }=0D=0A=0D=0A      /**=0D=0A      * @tab Footer=0D=0A      * @section f=
+ooter text=0D=0A      * @tip Set the styling for your email's footer tex=
+t. Choose a size and color that is easy to read.=0D=0A      * @theme foo=
+ter=0D=0A      */=0D=0A=0D=0A      .footerContent div{=0D=0A        colo=
+r:#a5a5a5;=0D=0A        font-family: 'Elena'=2C -apple-system=2C BlinkMa=
+cSystemFont=2C AvenirNext=2C Avenir=2C 'Roboto Slab'=2C 'Droid Serif'=2C=
+ 'Segoe UI'=2C 'Fira Sans'=2C Oxygen-Sans=2C Ubuntu=2C Cantarell=2C Aria=
+l=2C 'Times New Roman'=2C serif;=0D=0A        font-size:17px;=0D=0A    =
+    line-height:150%;=0D=0A        text-align:center;=0D=0A      }=0D=0A=
+=0D=0A      /**=0D=0A      * @tab Footer=0D=0A      * @section footer li=
+nk=0D=0A      * @tip Set the styling for your email's footer links. Choo=
+se a color that helps them stand out from your text.=0D=0A      */=0D=0A=
+=0D=0A      .footerContent img{=0D=0A        display:inline;=0D=0A     =
+ }=0D=0A=0D=0A      /**=0D=0A      * @tab Footer=0D=0A      * @section s=
+ocial bar style=0D=0A      * @tip Set the background color and border fo=
+r your email's footer social bar.=0D=0A      * @theme footer=0D=0A     =
+ */=0D=0A      #social=2C #meta {=0D=0A        border: 0;=0D=0A      }=
+=0D=0A=0D=0A      #meta {=0D=0A        color: #777;=0D=0A        padding=
+: 7px 10px 10px 10px !important;=0D=0A        margin-left: -7px;=0D=0A =
+       font-size: 12px;=0D=0A        margin-top: 5px;=0D=0A      }=0D=0A=
+=0D=0A      /**=0D=0A      * @tab Footer=0D=0A      * @section social ba=
+r style=0D=0A      * @tip Set the background color and border for your e=
+mail's footer social bar.=0D=0A      */=0D=0A      #social div{=0D=0A  =
+      text-align:left;=0D=0A      }=0D=0A=0D=0A      /**=0D=0A      * @t=
+ab Footer=0D=0A      * @section utility bar style=0D=0A      * @tip Set=
+ the background color and border for your email's footer utility bar.=0D=
+=0A      * @theme footer=0D=0A      */=0D=0A      #utility{=0D=0A      =
+  background-color:#FFFFFF;=0D=0A        border:0;=0D=0A      }=0D=0A=0D=
+=0A      /**=0D=0A      * @tab Footer=0D=0A      * @section utility bar=
+ style=0D=0A      * @tip Set the background color and border for your em=
+ail's footer utility bar.=0D=0A      */=0D=0A      #utility div{=0D=0A =
+       text-align:left;=0D=0A      }=0D=0A=0D=0A      .rounded {=0D=0A =
+       -webkit-border-radius: 11px;=0D=0A        -moz-border-radius: 11p=
+x;=0D=0A        border-radius: 11px;=0D=0A      }=0D=0A=0D=0A      .year=
+ { color: #868686; font-size: 0.95em; }=0D=0A=0D=0A      #templateFooter=
+ { color: #fff; }=0D=0A      .short-preview { font-size: 1px; color: #ed=
+eded;}=0D=0A      .inline-bullet {=0D=0A        color: #e6492f;=0D=0A  =
+      display: inline-block;=0D=0A        padding: 0 2px;=0D=0A      }=
+=0D=0A      .warning {=0D=0A        color:#878787;=0D=0A        font-fam=
+ily: 'Elena'=2C -apple-system=2C BlinkMacSystemFont=2C AvenirNext=2C Ave=
+nir=2C 'Roboto Slab'=2C 'Droid Serif'=2C 'Segoe UI'=2C 'Fira Sans'=2C Ox=
+ygen-Sans=2C Ubuntu=2C Cantarell=2C Arial=2C 'Times New Roman'=2C serif;=
+=0D=0A        font-size:17px;=0D=0A        line-height:157%;=0D=0A     =
+   padding: 15px 0 5px 0;=0D=0A        margin: 0 auto;=0D=0A        text=
+-align: center;=0D=0A      }=0D=0A      #meta a:link=2C #meta a:visited=
+=2C.warning a:link=2C .warning a:visited {=0D=0A        color:#878787 !i=
+mportant;=0D=0A        font-weight:normal;=0D=0A        text-decoration:=
+underline;=0D=0A      }=0D=0A      td[class=3D"smlogo"] {=0D=0A        b=
+ackground-color: #d33a2c;=0D=0A        border-top-left-radius: 11px;=0D=
+=0A        border-top-right-radius: 11px;=0D=0A      }=0D=0A      table[=
+id=3D"templateHeader"] {=0D=0A        background-color: #ededed !importa=
+nt;=0D=0A/*=0D=0A        -moz-box-shadow: 0px 0px 30px 1px rgba(0=2C 0=
+=2C 0=2C 0.05); -webkit-box-shadow: 0px 0px 30px 1px rgba(0=2C 0=2C 0=2C=
+ 0.05); border-radius: 12px 12px 0 0; box-shadow: 0px 0px 30px 0 rgba(0=
+=2C 0=2C 0=2C 0.2)=0D=0A*/=0D=0A      }=0D=0A/*=0D=0A        border-top-=
+left-radius: 11px;=0D=0A        border-top-right-radius: 11px;=0D=0A*/=
+=0D=0A      }=0D=0A=0D=0A      .bannerContent img {=0D=0A        border-=
+top-left-radius: 11px;=0D=0A        border-top-right-radius: 11px;  =0D=
+=0A        box-shadow: 0px 0px 1px 0px rgba(0=2C 0=2C 0=2C 0.15);=0D=0A=
+      }=0D=0A=0D=0A      /* Media Query Styles */=0D=0A      @media only=
+ screen and (max-width: 680px) {=0D=0A=0D=0A      td[class=3D"smlogo"] {=
+=0D=0A        border-radius: 0;=0D=0A      }=0D=0A      =0D=0A      td[c=
+lass=3D"info-visual__visual"] {=0D=0A      display: none;=0D=0A      }=
+=0D=0A        .bannerContent img {=0D=0A          border-radius: 0;=0D=
+=0A          box-shadow: 0;=0D=0A        }=0D=0A        img { max-width:=
+ 100% !important; }=0D=0A        td[class=3D"bodyContent"] img { max-wid=
+th: 250px;}=0D=0A        td[class=3D"smlogo"] { padding-top: 25px; paddi=
+ng-bottom: 25px; padding-left: 20px; }=0D=0A        td[class=3D"smlogo"]=
+ { padding-left: 20px; }=0D=0A        table[id=3D"templateContainer"]=2C=
+ #templateContainer {=0D=0A          margin: 0 auto;=0D=0A          padd=
+ing: 0;=0D=0A        }=0D=0A        table[id=3D"templateBody"]=2C #templ=
+ateBody=2C table[id=3D"templateFooter"]=2C #templateFooter {=0D=0A     =
+     padding:0 10px;=0D=0A        }=0D=0A=0D=0A        #standardPreheade=
+r=2C  body=2C #backgroundTable=0D=0A          { padding: 0 !important; m=
+argin: 0 !important; }=0D=0A        #standardPreheader { margin-left: 0;=
+ width: 300px;=0D=0A          margin-bottom: 0 !important; padding-botto=
+m: 0 !important;}=0D=0A          #standardPreheader img { width: 220px !=
+important; }=0D=0A        table[id=3D"backgroundTable"]=2C table[id=3D"t=
+emplatePreheader"]=2C=0D=0A        table[id=3D"standardPreheader"] {=0D=
+=0A          border-collapse: collapse;  border-spacing: 0; padding: 0;=
+ }=0D=0A        #templatePreheader { border-radius: 0;}=0D=0A          p=
+.warning { font-size: 17px; margin-bottom: 10px !important;}=0D=0A=0D=0A=
+        /**=0D=0A        * @tab Mobile=0D=0A        * @section email wid=
+th=0D=0A        * @tip Set the width of your email when rendered in mobi=
+le devices. Usually=2C this should be half of the 600px width.=0D=0A   =
+     */=0D=0A        #templateContainer=2C #templateBody=2C #templatePre=
+header=2C #templateFooter=2C table[id=3D"templateContainer"]=2C table[id=
+=3D"templatePreheader"]=2C table[id=3D"templateHeader"]=2C table[id=3D"t=
+emplateBody"]=2C table[id=3D"templateFooter"]{=0D=0A          max-width:=
+ 550px !important;=0D=0A          width:100%;=0D=0A        }=0D=0A=0D=0A=
+        /**=0D=0A        * @tab Mobile=0D=0A        * @section heading 1=
+=0D=0A        * @tip Set the font size and line height for first-level h=
+eadings in your emails in mobile devices. Font size should be 1-2px larg=
+er than normal=2C and line height should be 1.5 times as tall.=0D=0A   =
+     */=0D=0A        h1{=0D=0A          font-size:30px;=0D=0A          l=
+ine-height:135%;=0D=0A        }=0D=0A=0D=0A        /**=0D=0A        * @t=
+ab Mobile=0D=0A        * @section heading 2=0D=0A        * @tip Set the=
+ font size and line height for second-level headings in your emails in m=
+obile devices. Font size should be 1-2px larger than normal=2C and line=
+ height should be 1.5 times as tall.=0D=0A        */=0D=0A        h2{=0D=
+=0A          font-size:26px;=0D=0A          line-height:145%;=0D=0A    =
+    }=0D=0A=0D=0A        /**=0D=0A        * @tab Mobile=0D=0A        * @=
+section heading 3=0D=0A        * @tip Set the font size and line height=
+ for third-level headings in your emails in mobile devices. Font size sh=
+ould be 1-2px larger than normal=2C and line height should be 1.5 times=
+ as tall.=0D=0A        */=0D=0A        h3{=0D=0A          font-size:23px=
+;=0D=0A          line-height:145%;=0D=0A        }=0D=0A=0D=0A        /**=
+=0D=0A        * @tab Mobile=0D=0A        * @section heading 4=0D=0A    =
+    * @tip Set the font size and line height for fourth-level headings i=
+n your emails in mobile devices. Font size should be 1-2px larger than n=
+ormal=2C and line height should be 1.5 times as tall.=0D=0A        */=0D=
+=0A        h4{=0D=0A          font-size:19px;=0D=0A          line-height=
+:145%;=0D=0A        }=0D=0A=0D=0A        td[id=3D"preheaderArchive"]{=0D=
+=0A          display:none;=0D=0A        }=0D=0A=0D=0A        /**=0D=0A =
+       * @tab Mobile=0D=0A        * @section preheader text=0D=0A      =
+  * @tip Set the font size for your email's preheader text in mobile dev=
+ices. It should be 2-3px larger than normal.=0D=0A        */=0D=0A     =
+   td[class=3D"preheaderContent"]{=0D=0A          font-size:13px;=0D=0A=
+        }=0D=0A=0D=0A        /**=0D=0A        * @tab Mobile=0D=0A      =
+  * @section header image width=0D=0A        * @tip Set the width of you=
+r header image when rendered in mobile devices. Usually=2C this should b=
+e half of its original width.=0D=0A        */=0D=0A        img[id=3D"hea=
+derImage"]{=0D=0A          -ms-interpolation-mode:bicubic;=0D=0A       =
+   height:auto;=0D=0A          max-width:480px !important;=0D=0A       =
+   width:100%;=0D=0A        }=0D=0A=0D=0A        /**=0D=0A        * @tab=
+ Mobile=0D=0A        * @section body text=0D=0A        * @tip Set the fo=
+nt size for your email's body text in mobile devices. It should be 3-4px=
+ larger than normal=2C or a minimum of 17px.=0D=0A        */=0D=0A     =
+   td[class=3D"bodyContent"] div=2C .bodyContent div {=0D=0A          fo=
+nt-size:21px !important;=0D=0A          line-height: 155% !important;=0D=
+=0A        }=0D=0A=0D=0A        td[class=3D"bodyContent"] div p {=0D=0A=
+          margin-bottom: 23px;=0D=0A        }=0D=0A=0D=0A        /**=0D=
+=0A        * @tab Mobile=0D=0A        * @section footer text=0D=0A     =
+   * @tip Set the font size for your email's footer text in mobile devic=
+es. It should be 2-3px larger than normal.=0D=0A        */=0D=0A       =
+ td[class=3D"footerContent"]{=0D=0A          font-size:13px;=0D=0A     =
+   }=0D=0A        li[class=3D"recent"] a=2C li[class=3D"workshops"] a {=
+=0D=0A          display: block !important;=0D=0A        }=0D=0A      }=
+=0D=0A=0D=0A      @media only screen and (max-height: 550px) {=0D=0A   =
+   #smashing-shop {=0D=0A        width: 220px !important;=0D=0A        h=
+eight: 57px !important;=0D=0A      }=0D=0A      }=0D=0A      @media only=
+ screen and (min-width: 680px) {=0D=0A        #templatePreheader=2C #tem=
+plateContainer { width: 650px !important;}=0D=0A        #templateBody {=
+ width: 570px !important;}=0D=0A        td[class=3D"smlogo"] { padding-l=
+eft: 50px; }=0D=0A      }=0D=0A=0D=0A      .signature {=0D=0A        col=
+or: #757575;=0D=0A        margin-bottom: 16px;=0D=0A        margin-top:=
+ 3em;=0D=0A      }=0D=0A=0D=0A      .signature::before {=0D=0A        co=
+ntent: "";=0D=0A        display: inline-block;=0D=0A        vertical-ali=
+gn: middle;=0D=0A        height: 2px;=0D=0A        background-color: #BD=
+BDBD;=0D=0A        width: 70px;=0D=0A        margin-right: .5em;=0D=0A =
+       font-weight: 400;=0D=0A        margin-bottom: 1em;=0D=0A      }=
+=0D=0A=0D=0A      .signature em {=0D=0A        display: block;=0D=0A   =
+   }=0D=0A      </style>=0D=0A    </head>=0D=0A    <body leftmargin=3D"0=
+" marginwidth=3D"0" topmargin=3D"0" marginheight=3D"0" offset=3D"0" styl=
+e=3D"-webkit-text-size-adjust: none;background: #ededed;margin: 0;paddin=
+g: 0;width: 100% !important;-ms-text-size-adjust: 100%;background-color:=
+ #ededed;line-height: 100% !important;" bgcolor=3D"#ededed">=0D=0A     =
+   <center>=0D=0A  <span class=3D"invisible-preview" style=3D"height: 0=
+ !important;line-height: 0 !important;font-size: 1px !important;color: t=
+ransparent !important;display: inline !important;">Just one more thing:=
+ please click on a button below to confirm the email.</span>=0D=0A  <tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"20" height=3D"100%" wid=
+th=3D"100%" id=3D"backgroundTable" style=3D"background: #ededed;height:=
+ 100% !important;margin: 0;padding: 0;width: 100% !important;background-=
+color: #ededed;line-height: 100% !important;" bgcolor=3D"#ededed">=0D=0A=
+    <tr>=0D=0A        <td align=3D"middle" valign=3D"top" style=3D"borde=
+r-collapse: collapse">=0D=0A<table border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" width=3D"565" id=3D"templatePreheader" style=3D"-moz-box-sha=
+dow: 0px 0px 10px 1px rgba(0=2C 0=2C 0=2C 0.05);-webkit-box-shadow: 0px=
+ 0px 10px 1px rgba(0=2C 0=2C 0=2C 0.05);background: #FFFFFF;border-radiu=
+s: 12px 12px 0 0;box-shadow: 0px 0px 30px 1px rgba(0=2C 0=2C 0=2C 0.05);=
+background-color: #FFFFFF;" bgcolor=3D"#FFFFFF">=0D=0A    <tr>=0D=0A   =
+     <td valign=3D"middle" class=3D"preheaderContent" style=3D"border-co=
+llapse: collapse">=0D=0A<table border=3D"0" cellpadding=3D"40" cellspaci=
+ng=3D"0" width=3D"100%">=0D=0A    <tr>=0D=0A        <td align=3D"left" c=
+lass=3D"smlogo" style=3D"border-collapse: collapse;background-color: #d3=
+3a2c;border-top-left-radius: 11px;border-top-right-radius: 11px;">=0D=0A=
+            <a href=3D"https://us1.mailchimp.com/mctx/clicks?url=3Dhttps=
+%3A%2F%2Fwww.smashingmagazine.com%2Fthe-smashing-newsletter%2F&h=3Dd157d=
+b3690921d4190421b406895c593d0c2145f0a56c3e1bdf3752a7fbed007&v=3D1&xid=3D=
+506cb72da1&uid=3D1135689&pool=3Dcontact_facing&subject=3D%3D%3Futf-8%3FQ=
+%3FSmashing%3D20Newsletter%3D3A%3D20Just%3D20one%3D20more%3D20thing%3D20=
+%3DE2%3D80%3D94%3D20please%3D20confirm%3D20email.%3F%3D"><img src=3D"htt=
+ps://gallery.mailchimp.com/16b832d9ad4b28edf261f34df/images/3023d933-12c=
+8-4f54-9463-5734a5034d6f.png" alt=3D"Smashing Magazine's logo" width=3D"=
+235" height=3D"55" style=3D"border: none;height: auto;-ms-interpolation-=
+mode: bicubic;line-height: 100%;outline: none;text-decoration: none;disp=
+lay: inline;margin-bottom: 0px;"></a>=0D=0A        </td>=0D=0A    </tr>=
+=0D=0A</table>=0D=0A        </td>=0D=0A    </tr>=0D=0A</table>=0D=0A<tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"565" id=3D"=
+templateContainer" style=3D"-moz-box-shadow: 0px 0px 10px 1px rgba(0=2C=
+ 0=2C 0=2C 0.05);-webkit-box-shadow: 0px 0px 10px 1px rgba(0=2C 0=2C 0=
+=2C 0.05);background: #FFFFFF;border-radius: 0 0 12px 12px;border-top-co=
+lor: transparent;border-top-style: solid;border-top-width: 6px;box-shado=
+w: 0px 0px 10px 1px rgba(0=2C 0=2C 0=2C 0.05);border-top: 0px solid tran=
+sparent;margin: 0 auto;background-color: #FFFFFF;" bgcolor=3D"#FFFFFF">=
+=0D=0A    <tr>=0D=0A        <td align=3D"center" valign=3D"top" style=3D=
+"border-collapse: collapse">=0D=0A<table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"515" id=3D"templateBody">=0D=0A    <tr>=0D=
+=0A        <td valign=3D"top" class=3D"bodyContent" style=3D"background:=
+ #FFFFFF;border-collapse: collapse;background-color: #FFFFFF;" bgcolor=
+=3D"#FFFFFF">=0D=0A=0D=0A<table border=3D"0" cellpadding=3D"20" cellspac=
+ing=3D"0" width=3D"100%">=0D=0A    <tr>=0D=0A        <td valign=3D"top"=
+ style=3D"border-collapse: collapse">=0D=0A<div align=3D"left" style=3D"=
+color: #505050;font-family: 'Elena'=2C -apple-system=2C BlinkMacSystemFo=
+nt=2C AvenirNext=2C Avenir=2C 'Roboto Slab'=2C 'Droid Serif'=2C 'Segoe U=
+I'=2C 'Fira Sans'=2C Oxygen-Sans=2C Ubuntu=2C Cantarell=2C Arial=2C 'Tim=
+es New Roman'=2C serif;text-align: left;max-width: 100%;font-size: 22px=
+ !important;line-height: 160% !important;">=0D=0A=0D=0A<h1 align=3D"left=
+" style=3D"display: block;font-family: 'Mija'=2C 'Elena'=2C -apple-syste=
+m=2C BlinkMacSystemFont=2C AvenirNext=2C Avenir=2C 'Roboto Slab'=2C 'Dro=
+id Serif'=2C 'Segoe UI'=2C 'Fira Sans'=2C Oxygen-Sans=2C Ubuntu=2C Canta=
+rell=2C Arial=2C 'Times New Roman'=2C serif;font-size: 36px;font-weight:=
+ bold;line-height: 155%;margin: 0;padding-top: 30px;padding-bottom: 15px=
+;text-align: left;color: #e6492f !important;">Dear Friend=2C</h1>=0D=0A=
+=0D=0A<table class=3D"info-visual">=0D=0A<tr>=0D=0A<td class=3D"info-vis=
+ual__info" style=3D"border-collapse: collapse;"><p style=3D"margin: 1em=
+ 0;margin-bottom: 16px;">Thank you <em>so</em> much for your trust! Plea=
+se <strong>confirm your subscription below</strong> and we'll be all set=
+. Of course=2C you can unsubscribe any time =E2=80=94=C2=A0no ifs or but=
+s.</p>=0D=0A</td>=0D=0A<td class=3D"info-visual__visual" style=3D"border=
+-collapse: collapse;"><a href=3D"https://us1.mailchimp.com/mctx/clicks?u=
+rl=3Dhttps%3A%2F%2Fwww.smashingmagazine.com%2Fthe-smashing-newsletter%2F=
+&h=3Dd157db3690921d4190421b406895c593d0c2145f0a56c3e1bdf3752a7fbed007&v=
+=3D1&xid=3D506cb72da1&uid=3D1135689&pool=3Dcontact_facing&subject=3D%3D%=
+3Futf-8%3FQ%3FSmashing%3D20Newsletter%3D3A%3D20Just%3D20one%3D20more%3D2=
+0thing%3D20%3DE2%3D80%3D94%3D20please%3D20confirm%3D20email.%3F%3D" styl=
+e=3D"text-decoration: none !important;font-weight: normal;padding: 10px=
+ 0;color: #006fc6 !important;"><img src=3D"https://mcusercontent.com/16b=
+832d9ad4b28edf261f34df/images/f7aab6e9-27c7-4cf6-bd6e-21fcbe0990c4.png"=
+ width=3D"215" height=3D"188" alt=3D"A happy cat trying to catch a golfd=
+ish." style=3D"margin: 0;padding: 0 0 0 1em;border: none;height: auto;-m=
+s-interpolation-mode: bicubic;line-height: 100%;outline: none;text-decor=
+ation: none;display: inline;margin-top: 15px;margin-bottom: 15px;"></a><=
+/td>=0D=0A</tr>=0D=0A</table>=0D=0A=0D=0A<div class=3D"cta" style=3D"fon=
+t-family: 'Elena'=2C -apple-system=2C BlinkMacSystemFont=2C AvenirNext=
+=2C Avenir=2C 'Roboto Slab'=2C 'Droid Serif'=2C 'Segoe UI'=2C 'Fira Sans=
+'=2C Oxygen-Sans=2C Ubuntu=2C Cantarell=2C Arial=2C 'Times New Roman'=2C=
+ serif;font-size: 22px !important;text-align: left;margin: 2.25em auto 2=
+.25em auto;color: #505050;line-height: 160% !important;max-width: 100%;"=
+>=0D=0A<!--[if mso]>=0D=0A  <v:roundrect xmlns:v=3D"urn:schemas-microsof=
+t-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"{{=
+ .SiteURL }}/auth/confirm-email/{{ .Token }}" style=3D"height:40px;v-tex=
+t-anchor:middle;width:240px;" arcsize=3D"30%" strokecolor=3D"#F4712B" fi=
+llcolor=3D"#FA9334">=0D=0A  https://smashingmagazine.us1.list-manage.com=
+/subscribe/confirm?u=3D16b832d9ad4b28edf261f34df&id=3Da1666656e0&e=3Df38=
+8eddcea=0D=0A    <w:anchorlock/>=0D=0A    <center style=3D"color:#ffffff=
+;font-family:sans-serif;font-size:13px;font-weight:bold;"></center>=0D=
+=0A  </v:roundrect>=0D=0A<![endif]-->=0D=0A<a href=3D"https://us1.mailch=
+imp.com/mctx/clicks?url=3Dhttps%3A%2F%2Fsmashingmagazine.us1.list-manage=
+.com%2Fsubscribe%2Fconfirm%3Fu%3D16b832d9ad4b28edf261f34df%26id%3Da16666=
+56e0%26e%3Df388eddcea&h=3D55539bb0f7b6525ba6760c863724ca25490bbc7971f752=
+40207c6944953040fe&v=3D1&xid=3D506cb72da1&uid=3D1135689&pool=3Dcontact_f=
+acing&subject=3D%3D%3Futf-8%3FQ%3FSmashing%3D20Newsletter%3D3A%3D20Just%=
+3D20one%3D20more%3D20thing%3D20%3DE2%3D80%3D94%3D20please%3D20confirm%3D=
+20email.%3F%3D" class=3D"btn" style=3D"font-weight: bold;text-decoration=
+: none !important;padding: .75em 1.45em;font-family: 'Mija'=2C 'Elena'=
+=2C -apple-system=2C BlinkMacSystemFont=2C AvenirNext=2C Avenir=2C 'Robo=
+to Slab'=2C 'Droid Serif'=2C 'Segoe UI'=2C 'Fira Sans'=2C Oxygen-Sans=2C=
+ Ubuntu=2C Cantarell=2C Arial=2C 'Times New Roman'=2C serif;font-size: 3=
+0px;vertical-align: middle;text-align: center;margin: 0 auto .08em;displ=
+ay: block;background-color: #41B14F;width: 70%;max-width: 100%;line-heig=
+ht: 1.25em;border: .04em solid rgba(0=2C0=2C0=2C0.15);opacity: 1;border-=
+radius: .7em;text-shadow: 0 .08em .08em rgba(0=2C0=2C0=2C0.1);-webkit-bo=
+x-shadow: 0 .08em .1em rgba(0=2C0=2C0=2C0.1);box-shadow: 0 .08em .1em rg=
+ba(0=2C0=2C0=2C0.1);-webkit-transition: all ease .2s;-o-transition: all=
+ ease .2s;transition: all ease .2s;position: relative;top: 0;color: #fff=
+ !important;margin-bottom: 0.5em !important;">Confirm and finish&nbsp;=
+=E2=86=92</a></div>=0D=0A=0D=0A<p style=3D"margin: 1em 0;margin-bottom:=
+ 16px;">If the button above doesn't work for some reason=2C please copy=
+ and paste this URL into your browser instead:</p>=0D=0A=0D=0A<p style=
+=3D"margin: 1em 0;margin-bottom: 16px;"><a style=3D"-moz-hyphens: auto;-=
+ms-word-break: break-all;-webkit-hyphens: auto;hyphens: auto;word-break:=
+ break-word;font-weight: normal;text-decoration: underline;padding: 10px=
+ 0;color: #006fc6 !important;" href=3D"https://us1.mailchimp.com/mctx/cl=
+icks?url=3Dhttps%3A%2F%2Fsmashingmagazine.us1.list-manage.com%2Fsubscrib=
+e%2Fconfirm%3Fu%3D16b832d9ad4b28edf261f34df%26id%3Da1666656e0%26e%3Df388=
+eddcea&h=3D55539bb0f7b6525ba6760c863724ca25490bbc7971f75240207c694495304=
+0fe&v=3D1&xid=3D506cb72da1&uid=3D1135689&pool=3Dcontact_facing&subject=
+=3D%3D%3Futf-8%3FQ%3FSmashing%3D20Newsletter%3D3A%3D20Just%3D20one%3D20m=
+ore%3D20thing%3D20%3DE2%3D80%3D94%3D20please%3D20confirm%3D20email.%3F%3=
+D">https://smashingmagazine.us1.list-manage.com/subscribe/confirm?u=3D16=
+b832d9ad4b28edf261f34df&id=3Da1666656e0&e=3Df388eddcea</a></p>=0D=0A=0D=
+=0A<hr style=3D"color: #E6E8E6;background-color: #E6E8E6;height: 1px;bor=
+der: 0;margin: 35px 0;">=0D=0A=0D=0A<p style=3D"margin: 1em 0;margin-bot=
+tom: 16px;">If you received this email by mistake=2C simply delete it. O=
+bviously=2C you won't be subscribed then!</p>=0D=0A=0D=0A<p class=3D"sig=
+nature" style=3D"margin: 1em 0;color: #757575;margin-bottom: 16px;margin=
+-top: 3em;"><em style=3D"display: block;">From cats with love.<br>The Sm=
+ashing Family (<a class=3D"signature__email" href=3D"mailto:help@smashin=
+gmagazine.com?subject=3DProblem with email change..." style=3D"font-weig=
+ht: normal;text-decoration: underline;padding: 10px 0;color: #006fc6 !im=
+portant;">help@smashingmagazine.com</a>)<br><a href=3D"https://us1.mailc=
+himp.com/mctx/clicks?url=3Dhttps%3A%2F%2Fwww.smashingmagazine.com&h=3Df8=
+3a51b17f71ea56ab83930017d86b1d7a474311139b3d33e42472be5339ac96&v=3D1&xid=
+=3D506cb72da1&uid=3D1135689&pool=3Dcontact_facing&subject=3D%3D%3Futf-8%=
+3FQ%3FSmashing%3D20Newsletter%3D3A%3D20Just%3D20one%3D20more%3D20thing%3=
+D20%3DE2%3D80%3D94%3D20please%3D20confirm%3D20email.%3F%3D" style=3D"fon=
+t-weight: normal;text-decoration: underline;padding: 10px 0;color: #006f=
+c6 !important;">https://www.smashingmagazine.com</a></em></p>=0D=0A=0D=
+=0A    <span itemscope=3D"" itemtype=3D"http://schema.org/EmailMessage">=
+=0D=0A        <span itemprop=3D"description" content=3D"We need to confi=
+rm your email address."></span>=0D=0A            <span itemprop=3D"actio=
+n" itemscope=3D"" itemtype=3D"http://schema.org/ConfirmAction">=0D=0A  =
+          <meta itemprop=3D"name" content=3D"Confirm Subscription">=0D=
+=0A                <span itemprop=3D"handler" itemscope=3D"" itemtype=3D=
+"http://schema.org/HttpActionHandler">=0D=0A                <meta itempr=
+op=3D"url" content=3D"https://smashingmagazine.us1.list-manage.com/subsc=
+ribe/smartmail-confirm?u=3D16b832d9ad4b28edf261f34df&id=3Da1666656e0&e=
+=3Df388eddcea&inline=3Dtrue">=0D=0A                <link itemprop=3D"met=
+hod" href=3D"http://schema.org/HttpRequestMethod/POST">=0D=0A          =
+      </span>=0D=0A            </span>=0D=0A        </span>=0D=0A    =0D=
+=0A    </div>=0D=0A        </td>=0D=0A    </tr>=0D=0A</table>=0D=0A=0D=
+=0A        </td>=0D=0A    </tr>=0D=0A</table>=0D=0A        </td>=0D=0A =
+   </tr>=0D=0A</table>=0D=0A        </td>=0D=0A    </tr>=0D=0A</table>=
+=0D=0A        </center>=0D=0A    <img src=3D"https://us1.mailchimp.com/m=
+ctx/opens?xid=3D506cb72da1&uid=3D1135689&pool=3Dcontact_facing&subject=
+=3D%3D%3Futf-8%3FQ%3FSmashing%3D20Newsletter%3D3A%3D20Just%3D20one%3D20m=
+ore%3D20thing%3D20%3DE2%3D80%3D94%3D20please%3D20confirm%3D20email.%3F%3=
+D" height=3D"1" width=3D"1" alt=3D""></body>=0D=0A</html>
+--_----------=_MCPart_1875943931--
+
+
+From bounce-md_9656349.61a91257.v1-844c1130d10b4777ae78821430666d40@mandrillapp.com  Thu Dec  2 18:37:08 2021
+Return-Path: <bounce-md_9656349.61a91257.v1-844c1130d10b4777ae78821430666d40@mandrillapp.com>
+X-Original-To: jmorton@globocat.com
+Delivered-To: jmorton@globocat.com
+Received: from mail52.us4.mandrillapp.com (mail52.us4.mandrillapp.com [205.201.136.52])
+	by mail.globocat.com (Postfix) with ESMTPS id 153C97E5CB
+	for <jmorton@globocat.com>; Thu,  2 Dec 2021 18:37:08 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tinyletter.com;
+	s=mandrill; t=1638470231; i=confirm@tinyletter.com;
+	bh=BfLzaZ2o5QSyl+Cp4ERu5LPTU8iMng5roEoGhBVI1Sw=;
+	h=From:Subject:Message-Id:To:Date:MIME-Version:Content-Type;
+	b=GhL/DvzasgJ2Sybsg6CqsIJ9KtAzWbSxygARPxlSOUEVqp/rD9zLqNQoF0eptrt+1
+	 LYNNavc6pz6MrTgEcQ17G6MYc40c7dxDP6MzBE+hs81EdS77ur4hOPf9viqaJi+0/c
+	 JUkMbb8hNx/HU/z5WvZWI+dnYtU+bX/3C1SsF37o=
+Received: from pmta15.mandrill.prod.suw01.rsglab.com (localhost [127.0.0.1])
+	by mail52.us4.mandrillapp.com (Mailchimp) with ESMTP id 4J4l6v3QHlzCf9YGv
+	for <jmorton@globocat.com>; Thu,  2 Dec 2021 18:37:11 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1638470231; h=From : 
+ Subject : Message-Id : To : Date : MIME-Version : Content-Type : From : 
+ Subject : Date : X-Mandrill-User : List-Unsubscribe; 
+ bh=BfLzaZ2o5QSyl+Cp4ERu5LPTU8iMng5roEoGhBVI1Sw=; 
+ b=fGfUw5TfsA0QsQjWs9Y43tu16C6gqIL0EprV2qg5g5MiDxZrzeiMN7btA6YbfErkHOG00p
+ ZHwqz5N6CKF5pWFWef4QaTBnfQLrvQwxBceevsUwo3RjOQdDh1yyW4yQ96oysCHQtq1uqvhP
+ 6KQdH4fL/aEHpaDAJJe7+fcrY+c2U=
+From: tinyletter <confirm@tinyletter.com>
+Subject: Please confirm your email address.
+Message-Id: <2d83dd140f3ae6b2b516765fce99d569@>
+To: jmorton@globocat.com
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=9656349.844c1130d10b4777ae78821430666d40
+X-Mandrill-User: md_9656349
+Feedback-ID: 9656349:9656349.20211202:md
+Date: Thu, 02 Dec 2021 18:37:11 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_av-19meaXjn9KIZXiHTXwhbXA"
+
+--_av-19meaXjn9KIZXiHTXwhbXA
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Click the link below to confirm your subscription to
+The Ann Friedman Weekly:
+
+
+
+Subscribe me to The Ann Friedman Weekly
+<https://tinyletter.com/annfriedman/confirm?id=f73f9ecc-411d-a420-0e4f-3b723789bb23>
+
+--_av-19meaXjn9KIZXiHTXwhbXA
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<p><span>Click the link below to confirm your subscription to The Ann Friedman Weekly:</span><br></p><br><a href="https://tinyletter.com/annfriedman/confirm?id=f73f9ecc-411d-a420-0e4f-3b723789bb23">Subscribe me to The Ann Friedman Weekly</a>
+
+--_av-19meaXjn9KIZXiHTXwhbXA--
+
+
+From bounce-md_9656349.61a913c7.v1-4cc0fdddd4ce47ce9965c31b8204493f@mandrillapp.com  Thu Dec  2 18:43:15 2021
+Return-Path: <bounce-md_9656349.61a913c7.v1-4cc0fdddd4ce47ce9965c31b8204493f@mandrillapp.com>
+X-Original-To: jmorton@globocat.com
+Delivered-To: jmorton@globocat.com
+Received: from mail52.us4.mandrillapp.com (mail52.us4.mandrillapp.com [205.201.136.52])
+	by mail.globocat.com (Postfix) with ESMTPS id D377A7E5CB
+	for <jmorton@globocat.com>; Thu,  2 Dec 2021 18:43:15 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tinyletter.com;
+	s=mandrill; t=1638470599; i=confirm@tinyletter.com;
+	bh=AMe4HzDA9DdTgZ9kzUI8Z/u3kclDWAA9V73PDNdJOMY=;
+	h=From:Subject:Message-Id:To:Date:MIME-Version:Content-Type;
+	b=ZdsdjQPbCvOAijnLK89d7AW7JIg9AC8/Qjfi0qwQ+9LzU8Nef9YL0mAk712u4y2oE
+	 M1Mnd5beaj54uKxqn+SylmMs0zvMIcyr6FGQ8sZIkFMjrKFxWsUCWUV/sixJ/qPKZg
+	 6rTPJTf+5GxBuwJelJlY5u3d25ZIloV5Przc41VM=
+Received: from pmta15.mandrill.prod.suw01.rsglab.com (localhost [127.0.0.1])
+	by mail52.us4.mandrillapp.com (Mailchimp) with ESMTP id 4J4lFz24wXzCf9YGx
+	for <jmorton@globocat.com>; Thu,  2 Dec 2021 18:43:19 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1638470599; h=From : 
+ Subject : Message-Id : To : Date : MIME-Version : Content-Type : From : 
+ Subject : Date : X-Mandrill-User : List-Unsubscribe; 
+ bh=AMe4HzDA9DdTgZ9kzUI8Z/u3kclDWAA9V73PDNdJOMY=; 
+ b=BPCK/Pj+VIELbhh6zjV+t9SzFOCIuAoVQd99x1xiRxCXUfg4phz35ZEc0cRPAB2w2D5q38
+ 6unFrszhuShrd03uRCxH5zlkwyQle+HELr11gxUh39oHSJjt9jAcXv/y7k4pj0tjdnBETy5S
+ 6TCRgE82JIa+Sj4xtv6+q6jT6vb8w=
+From: tinyletter <confirm@tinyletter.com>
+Subject: Please confirm your email address.
+Message-Id: <62e5221beec2185655a0905c1e629dc7@>
+To: jmorton@globocat.com
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=9656349.4cc0fdddd4ce47ce9965c31b8204493f
+X-Mandrill-User: md_9656349
+Feedback-ID: 9656349:9656349.20211202:md
+Date: Thu, 02 Dec 2021 18:43:19 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_av-yTQZUkSDpBc7JX1AaCijZw"
+
+--_av-yTQZUkSDpBc7JX1AaCijZw
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Hey! Thanks very much for subscribing.
+
+ Please click the link below to confirm your subscription to
+Links I Would Gchat You if We Were Friends:
+
+
+Subscribe me to Links I Would Gchat You if We Were Friends
+<https://tinyletter.com/cdewey/confirm?id=23ced2fb-a4ef-e64c-c580-1b178db1401d>
+
+--_av-yTQZUkSDpBc7JX1AaCijZw
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<p>Hey! Thanks very much for subscribing.</p>
+
+<p>Please click the link below to confirm your subscription to Links I Would Gchat You if We Were Friends:</p><br><a href="https://tinyletter.com/cdewey/confirm?id=23ced2fb-a4ef-e64c-c580-1b178db1401d">Subscribe me to Links I Would Gchat You if We Were Friends</a>
+
+--_av-yTQZUkSDpBc7JX1AaCijZw--
+
+
